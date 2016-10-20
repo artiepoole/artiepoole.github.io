@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: rgba(65,65,65,1); /* #353535 */
+    font-family: Helvetica, Sans-Serif;
+	/*background-color: rbga(251,245,243,1);*/
+	background: rgba(226,241,255,1) url("cherry.png") no-repeat right bottom;
+}
+h1, h2, h3, h4 {
+    font-family: "deja vu sans", sans-serif;
+	color: rgba(30,179,175,1)
+}
+
+h2, h3, h4 {
+    margin: 0;
+}
+
+p {
+	line-height: 1.75em;
+	text-indent: 2em;
+
+}
+
+br {
+	text-indent: 3em;
+}
+@media (min-width: 800px){
+	.content {
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+	.mainhead {
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+}
+@media (max-width: 800px){
+	.content {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.mainhead {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+
+.header-container {
+	width: 100%;
+	background-color: rgba(30,179,175,1);
+	color: mintcream;
+	padding: 0.1em;
+	padding-top: 0.5em;
+	padding-left: 1em;
+	padding-bottom: 0.5em;
+	font-family: "deja vu sans", sans-serif;
+	
+}
+
+.title {
+	font-size: 250%;
+	margin-top: 0.7em;
+	padding-bottom: 0.4em;
+}
+
+.byline {
+	font-size: 180%;
+	margin-bottom: 1em;
+	padding-left: 1em;
+	color: rgba(30,179,175,1);
+}
