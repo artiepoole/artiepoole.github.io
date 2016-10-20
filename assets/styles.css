@@ -3,7 +3,7 @@ body {
     padding: 0;
     color: rgba(65,65,65,1); 
     font-family: Helvetica, Sans-Serif;
-	background: rgba(226,241,255,1);
+	background: rgb(221, 238, 254);
 }
 h1, h2, h3, h4 {
     font-family: "deja vu sans", sans-serif;
@@ -31,10 +31,13 @@ br {
 }
 
 
+
+
 .fixed{
- position:fixed;
- background-image: url("cherry.png"); 
- background-position: bottom right;
+ 	position:fixed;
+ 	bottom: 0;
+ 	right: 0;
+ 	z-index: -1;
 }
 
 
@@ -44,9 +47,11 @@ br {
 	color: mintcream;
 	padding: 0.1em;
 	padding-top: 0.5em;
-	padding-left: 1em;
 	padding-bottom: 0.5em;
 	font-family: "deja vu sans", sans-serif;
+	margin-left: -1em;
+	margin-right: -1em;
+	padding-left: 1em;
 }
 
 .title {
@@ -58,6 +63,5 @@ br {
 .byline {
 	font-size: 180%;
 	margin-bottom: 1em;
-	padding-left: 1em;
 	color: rgba(30,179,175,1);
 }
