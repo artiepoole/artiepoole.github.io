@@ -1,5 +1,6 @@
 ---
+layout: default
 ---
 
 
-This is a page with content on it. Sadly, there's no fucking menu anywhere
+This is a page with content on it and even a menu!
