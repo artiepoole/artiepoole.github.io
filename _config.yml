@@ -1,14 +1,14 @@
 theme: jekyll-theme-midnight
 show_downloads: false
 
-title: Stuart F Poole | Full-Time Physicist, Part-Time Maker
+title: Stuart F Poole | Full-Time Physicist
 email: stuart.f.poole@gmail.com
-description: This is Stuart Poole's first attempt at making a site with jekyll
+description: Postgraduate physicist at the University of Nottingham
 github_username: stupoole
 exclude: 
   - Gemfile 
   - Gemfile.lock
 
-url: localhost
-baseurl: /stupoole
+url: localhost:4000
+baseurl: /
 repository: stupoole/stupoole.github.io
