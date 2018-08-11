@@ -5,6 +5,7 @@ title: Stuart F Poole | Physicist && Maker
 email: stuart.f.poole@gmail.com
 description: Postgraduate physicist at The University of Nottingham
 github_username: stupoole
+author: Stu Poole
 exclude: 
   - Gemfile 
   - Gemfile.lock
