@@ -1,11 +1,3 @@
-<!-- <ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ posts.content }}</a>
-    </li>
-  {% endfor %}
-</ul> -->
-
 ---
 layout: default
 ---
