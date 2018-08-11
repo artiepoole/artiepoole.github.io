@@ -16,7 +16,7 @@
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
-        <section id="downloads">
+        <section id="navlinks">
           <a href="/index.html" class="btn">Home</a>
           <a href="/projects.html" class="btn">Projects</a>
           <a href="/research.html" class="btn">Research</a>
@@ -47,5 +47,21 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
+
+    <footer>
+      <div class="container footer">
+      <section id="extlinks">
+        <a href="mailto:stuart.poole@nottingham.ac.uk" class="btn btn-email"><span class="icon"></span>Email</a>
+        <a href="https://scholar.google.co.uk/" class="btn btn-scholar"><span class="icon"></span>Google Scholar</a>
+        <a href="https://www.nottingham.ac.uk/physics/people/" class="btn btn-notts"><span class="icon"></span>Uni Profile Page</a>
+        <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+      </section>
+    </div>
+    <div class="container footer-text">
+      <p> <a href="mailto:stuart.f.poole@gmail.com">Report Issues</a></p>
+    </div>
+
+          
+    </footer>
   </body>
 </html>
