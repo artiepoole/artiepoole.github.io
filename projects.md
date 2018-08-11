@@ -4,7 +4,8 @@ layout: default
 
 <!-- This code loads all posts and displays them -->
 
-<div class="blog-index span1">
+<div class="row">
+<div class="span1">
 	<ul>
 	  {% for post in site.posts %}
 	    <li>
@@ -15,10 +16,7 @@ layout: default
 	</ul>
 </div>	
 
-
-<!-- This is the code for the list of posts that should scroll with the page eventually -->
-
-<div class="blog-index span2">
+<div class="span2">
 	<ul>
 	  {% for post in site.posts %}
 	    <li>
@@ -27,5 +25,5 @@ layout: default
 	  {% endfor %}
 	</ul>
 </div>	
-
+</div>
 

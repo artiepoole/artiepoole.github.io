@@ -3,7 +3,7 @@ show_downloads: false
 
 title: Stuart F Poole | Physicist && Maker
 email: stuart.f.poole@gmail.com
-description: Postgraduate physicist at the University of Nottingham
+description: Postgraduate physicist at The University of Nottingham
 github_username: stupoole
 exclude: 
   - Gemfile 
