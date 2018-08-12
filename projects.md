@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /projects/
 ---
 
 <!-- This code loads all posts and displays them -->
