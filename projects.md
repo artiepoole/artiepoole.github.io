@@ -3,7 +3,12 @@ layout: default
 ---
 
 <!-- This code loads all posts and displays them -->
-
+<top>
+	<div class="container">
+	<h1> Hobbyist Projects</h1>
+	<p> This page is a list of projects I have worked on as a hobbyist circuit designer, carpenter, hacker (as-in maker) and code jockey. </p>
+	</div>
+</top>
 <div class="row">
 <div class="span1">
 	<ul>

@@ -1,13 +1,10 @@
 
-<h1 class="entry-title">
-    <!-- <a href="{{ root_url }}{{ page.url }}">{{ page.title }}</a> -->
-    {{page.title}}
-</h1>
+
 {% if post.title %}
-  <h1 class="entry-title" id="{{post.title}}">
+  <h2 class="entry-title" id="{{post.title}}">
     <!-- <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a> -->
     {{post.title}}
-  </h1>      
+  </h2>      
 {% endif %}
 <div class="entry-content">{{ content }}</div>	
-<a href="{{ root_url }}{{ post.url }}">View Post</a>
+<a href="{{ root_url }}{{ post.url }}">View Separately</a>
