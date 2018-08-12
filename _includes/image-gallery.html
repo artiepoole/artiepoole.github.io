@@ -11,10 +11,12 @@
     {% if file.extname == '.jpg' or 
       file.extname == '.jpeg' or 
       file.extname == '.JPG' or 
-      file.extname == '.JPEG' %}
+      file.extname == '.JPEG' or
+      file.extname == '.png' or
+      file.extname == '.PNG' %}
       {% assign basename = file.basename | slice: 5, 40 %}
       <div class="span300">
-      <a href="{{ file.path }}">
+      <a href="{{ file.path }}" caption="{{file.basename}}">
         <img src="//images.weserv.nl/?url=stupoole.github.io{{ file.path }}&w=300&h=300&output=jpg&q=50&t=square" />
       </a>
       <caption>{{basename}}</caption>
