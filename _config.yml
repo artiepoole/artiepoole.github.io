@@ -10,6 +10,6 @@ exclude:
   - Gemfile 
   - Gemfile.lock
 
-url: localhost:4000
+url: stupoole.github.io
 baseurl: /
 repository: stupoole/stupoole.github.io
