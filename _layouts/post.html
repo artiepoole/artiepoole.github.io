@@ -7,6 +7,7 @@ layout: default
 
 <p class="view">by {{ page.author | default: site.author }}</p>
 
+
 {{content}}
 
 
@@ -14,3 +15,14 @@ layout: default
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}
+
+
+...
+<script src="/js/jquery.min.js"></script>
+{% include image-show.html %}
+{% include text-expand.html %}
+{% include lightbox.html %}
+</body>
+</html>
+</body>
+</html>

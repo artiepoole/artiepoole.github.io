@@ -189,9 +189,24 @@ ul li {
   font-style: bold;
 }
 
-.span50{
-  width:50%;
+.span60{
+  width:60%;
 }
+
+
+.span40{
+  width: 40%;
+  text-align: center;
+}
+.span40 p {
+  text-align: center;
+}
+
+.span80 {
+  width: 80%;
+  text-align:center;
+}
+
 
 blockquote {
   color: $blockquote-color;
@@ -391,4 +406,20 @@ width: 20%;
  }
  .row:after {
   clear:both
+ }
+
+  .row2 {
+  *zoom:1
+ }
+  .row2:before,.row:after {
+  display:table;
+  line-height:0;
+  content:""
+ }
+ .row2:after {
+  clear:both
+ }
+
+ .span300{
+  width: 300px;
  }
