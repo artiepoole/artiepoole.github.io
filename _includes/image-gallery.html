@@ -2,7 +2,7 @@
   .image-gallery {overflow: auto; margin-left: -1%;}
   .image-gallery a { display: block; margin: 0 0 1% 1%; width: 100%;}
   .image-gallery a img {width: 100%;}
-  .image-gallery caption {text-align:center; margin: 0 0 1% 1%; width: 17%;}
+  .image-gallery caption {text-align:center; margin: 0 0 1% 1%; width: 17%; font-style: none;}
 </style>
 
 <div class="image-gallery">
@@ -17,14 +17,13 @@
       file.extname == '.JPG' or 
       file.extname == '.JPEG' %}      
         <img src="//images.weserv.nl/?url=stupoole.github.io{{ file.path }}&w=200&h=200&output=jpg&q=50&t=square" alt="{{basename}}"/>
-      {% else if file.extname == '.png' o
+      {% else if file.extname == '.png' or
         file.extname ==".PNG" %}
         <img src="//images.weserv.nl/?url=stupoole.github.io{{ file.path }}&w=200&h=200&output=png&q=50&t=square" alt="{{basename}}"/>
       {% endif %}
-      </a>
-      <caption>{{basename}}</caption>
-    </div>
-  
+  </a>
+  <p>{{ shortname }}</p>
+  </div>
   {% endif %}
 {% endfor %}
 </div>
