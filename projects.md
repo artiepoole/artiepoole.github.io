@@ -7,7 +7,7 @@ permalink: /projects/
 <top>
 	<div class="container">
 	<h1> Hobbyist Projects</h1>
-	<p> This page is a list of projects I have worked on as a hobbyist circuit designer, carpenter, hacker (as-in maker) and code jockey. </p>
+	<p> This page is a list of projects I have worked on as a hobbyist circuit designer, carpenter, tinkerer and code jockey. </p>
 	</div>
 </top>
 <div class="row">
@@ -25,6 +25,7 @@ permalink: /projects/
 </div>	
 
 <div class="span2">
+<div class="floating-list">
 	<ul>
 	  {% for post in site.posts %}
 	  {% if post.category == "project" %}
@@ -34,6 +35,7 @@ permalink: /projects/
 	  {% endif %}
 	  {% endfor %}
 	</ul>
+</div>
 </div>	
 </div>
 
