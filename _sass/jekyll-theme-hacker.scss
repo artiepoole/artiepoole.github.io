@@ -182,11 +182,13 @@ ul li {
   font-size: 24px;
 }
 
-.span2 ul li::before {content: ">> "; color: $conifer;
+.span2 ul li::before {
+  content: ">> ";
+  color: $conifer;
   display: inline-block; width: 1em;
   margin-left: -1em;
-  content:">> ";
   font-style: bold;
+
 }
 
 .span60{
@@ -426,6 +428,6 @@ width: 20%;
 
  .floating-list{
   position: fixed;
-  left: 80%;
-  top: 25%;
+  left: 60%;
+  top: 35%;
  }
