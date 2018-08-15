@@ -16,10 +16,10 @@
       file.extname == '.jpeg' or 
       file.extname == '.JPG' or 
       file.extname == '.JPEG' %}      
-        <img src="//images.weserv.nl/?url=stupoole.github.io{{ file.path }}&w=300&h=300&output=jpg&q=50&t=square" alt="{{basename}}"/>
+        <img src="//images.weserv.nl/?url=stupoole.github.io{{ file.path }}&w=300&h=300&output=jpg&t=square" alt="{{basename}}"/>
       {% else if file.extname == '.png' or
         file.extname ==".PNG" %}
-        <img src="//images.weserv.nl/?url=stupoole.github.io{{ file.path }}&w=300&h=300&output=png&q=50&t=square" alt="{{basename}}"/>
+        <img src="//images.weserv.nl/?url=stupoole.github.io{{ file.path }}&w=300&h=300&output=png&t=square" alt="{{basename}}"/>
       {% endif %}
   </a>
   <p>{{ shortname }}</p>
