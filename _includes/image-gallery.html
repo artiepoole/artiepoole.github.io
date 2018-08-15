@@ -7,7 +7,7 @@
 
 <div class="image-gallery">
 {% for file in site.static_files %}
-  {% assign shortname = file.basename | slice: 5, 40 %}
+  {% assign shortname = file.basename | slice: 5, 35 %}
   {% assign fullname = file.basename | slice: 5, 400 %}
   {% if file.path contains include.folder %}
   <div class="span300">
@@ -16,10 +16,10 @@
       file.extname == '.jpeg' or 
       file.extname == '.JPG' or 
       file.extname == '.JPEG' %}      
-        <img src="//images.weserv.nl/?url=stupoole.github.io{{ file.path }}&w=200&h=200&output=jpg&q=50&t=square" alt="{{basename}}"/>
+        <img src="//images.weserv.nl/?url=stupoole.github.io{{ file.path }}&w=300&h=300&output=jpg&q=50&t=square" alt="{{basename}}"/>
       {% else if file.extname == '.png' or
         file.extname ==".PNG" %}
-        <img src="//images.weserv.nl/?url=stupoole.github.io{{ file.path }}&w=200&h=200&output=png&q=50&t=square" alt="{{basename}}"/>
+        <img src="//images.weserv.nl/?url=stupoole.github.io{{ file.path }}&w=300&h=300&output=png&q=50&t=square" alt="{{basename}}"/>
       {% endif %}
   </a>
   <p>{{ shortname }}</p>
