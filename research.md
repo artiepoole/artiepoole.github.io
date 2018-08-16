@@ -24,14 +24,19 @@ permalink: /research/
 </div>	
 
 <div class="span2">
+<div class="floating-list">
 	<ul>
 	  {% for post in site.posts %}
 	  {% if post.category == "research" %}
 	    <li>
-	      <a href="#{{ post.title }}"> {{post.title}} </a>
+	      <a href="#{{ post.title }}"> {{post.title | slice: 0, 25 }} </a>
 	    </li>
 	  {% endif %}
 	  {% endfor %}
 	</ul>
 </div>	
 </div>
+</div>
+
+<script src="/js/jquery.min.js"></script>
+{% include text-expand.html %}

@@ -30,7 +30,7 @@ permalink: /projects/
 	  {% for post in site.posts %}
 	  {% if post.category == "project" %}
 	    <li>
-	      <a href="#{{ post.title }}"> {{post.title}} </a>
+	      <a href="#{{ post.title }}"> {{post.title | slice: 0, 25}} </a>
 	    </li>
 	  {% endif %}
 	  {% endfor %}

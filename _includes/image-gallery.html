@@ -7,7 +7,7 @@
 
 <div class="image-gallery">
 {% for file in site.static_files %}
-  {% assign shortname = file.basename | slice: 5, 35 %}
+  {% assign shortname = file.basename | slice: 5, 25 %}
   {% assign fullname = file.basename | slice: 5, 400 %}
   {% if file.path contains include.folder %}
   <div class="span300">
