@@ -29,7 +29,12 @@ permalink: /research/
 	  {% for post in site.posts %}
 	  {% if post.category == "research" %}
 	    <li>
-	      <a href="#{{ post.title }}"> {{post.title | slice: 0, 25 }} </a>
+	    	{% if post.title.size > 28 %}
+  		<a href="#{{ post.title }}">{{post.title | slice: 0, 25 }}...</a>
+	    	{% else %}
+		<a href="#{{ post.title }}">{{post.title}}</a>
+    		{% endif %}
+
 	    </li>
 	  {% endif %}
 	  {% endfor %}
