@@ -7,15 +7,8 @@
 	-ms-transform: translateX(-50%) translateY(-50%);
 	-webkit-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
-	max-width: 90%;
-	max-height: 90%;
-}
-.lightbox p {
-	position: relative;
-	bottom: -5%;
-	left: 20%;
-	max-width: 60%;
-	text-align: center;
+	max-width: 100%;
+	max-height: 100%;
 }
 @media screen and (min-width: 1200px) {
     .lightbox img {
@@ -27,6 +20,13 @@
 		max-height: 1200px;
 	}
 }
+.lightbox span {display: block; position: fixed; bottom: 13px; height: 1.5em; line-height: 1.4em; width: 100%; text-align: center; color: white; text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+{% if page.lightbox_captions == false %}.lightbox span {display: none;}{% endif %}
 .lightbox .videoWrapperContainer {
 	position: relative; 
 	top: 50%;
@@ -122,27 +122,29 @@ $(document).ready(function() {
 		if(url) {
 			if(url.indexOf('vimeo') !== -1 && !$(this).hasClass('no-lightbox')) is_vimeolink(url,$(this));
 			if(is_youtubelink(url) && !$(this).hasClass('no-lightbox')) $(this).addClass('lightbox-youtube').attr('data-id',is_youtubelink(url));
-			if(is_imagelink(url) && !$(this).hasClass('no-lightbox')) $(this).addClass('lightbox-image');
+			if(is_imagelink(url) && !$(this).hasClass('no-lightbox')) {
+				$(this).addClass('lightbox-image');
+				var href = $(this).attr('href');
+				var filename = href.split('/').pop();
+				var split = filename.split(".");
+				var name = split[0];
+				$(this).attr('title',name);
+			}
 		}
 	});
 	//remove the clicked lightbox
 	$("body").on("click", ".lightbox", function(event){
 		if($(this).hasClass('gallery')) {
-			//console.log($(this).children("p"))
-			$(this).children("p").remove()
 			$(this).remove();
-			
-			
 			if($(event.target).attr('id')=='next') {
-				//console.log($("a.lightbox-image.current.gallery").parent().nextAll("div").children())
-				//next item - has to look up a bit to find the correct type since I added a div in the way :P
-				if($("a.lightbox-image.current.gallery").parent().nextAll("div").children().length) $("a.lightbox-image.current.gallery").parent().nextAll("div").children("a.gallery:first").click();
-				else $("a.gallery.current").parent().parent().find("a.gallery").first().click();
+				//next item
+				if($("a.gallery.current").nextAll("a.gallery:first").length) $("a.gallery.current").nextAll("a.gallery:first").click();
+				else $("a.gallery.current").parent().find("a.gallery").first().click();
 			}
 			else if ($(event.target).attr('id')=='prev') {
-				//prev item - has to look up a bit to find the correct type since I added a div in the way :P
-				if($("a.lightbox-image.current.gallery").parent().prevAll("div").children().length) $("a.lightbox-image.current.gallery").parent().prevAll("div").children("a.gallery:first").click();
-				else $("a.gallery.current").parent().parent().find("a.gallery").last().click();
+				//prev item
+				if($("a.gallery.current").prevAll("a.gallery:first").length) $("a.gallery.current").prevAll("a.gallery:first").click();
+				else $("a.gallery.current").parent().find("a.gallery").last().click();
 			}
 			else {
 				$("a.gallery").removeClass('gallery');
@@ -160,7 +162,7 @@ $(document).ready(function() {
 	//add the image lightbox on click
 	$("a.lightbox-image").click(function(event){
 		event.preventDefault();
-		$('<div class="lightbox"><a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><img src="'+$(this).attr('href')+'"/><p>'+$(this).attr('caption')+'</p></div>').appendTo('body');
+		$('<div class="lightbox"><a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><img src="'+$(this).attr('href')+'" alt="'+$(this).attr('title')+'" title="'+$(this).attr('title')+'" /><span>'+$(this).text()+'</span></div>').appendTo('body');
 	});
 	//add the vimeo lightbox on click
 	$("body").on("click", "a.lightbox-vimeo", function(event){
@@ -169,7 +171,7 @@ $(document).ready(function() {
 	});
 
 	$("body").on("click", "a[class*='lightbox-']", function(){
-		var link_elements = $(this).parent().parent().find("a[class*='lightbox-image']");
+		var link_elements = $(this).parent().find("a[class*='lightbox-']");
 		$(link_elements).removeClass('current');
 		for (var i=0; i<link_elements.length; i++) {
 			if($(this).attr('href') == $(link_elements[i]).attr('href')) {
