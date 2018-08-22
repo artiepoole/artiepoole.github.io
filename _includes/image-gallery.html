@@ -1,29 +1,23 @@
 <style>
-  .image-gallery {overflow: auto; margin-left: -1%;}
-  .image-gallery a { display: block; margin: 0 0 1% 1%; width: 100%;}
-  .image-gallery a img {width: 100%;}
-  .image-gallery caption {text-align:center; margin: 0 0 1% 1%; width: 17%; font-style: none;}
+    .image-gallery {overflow: auto; margin-left: -1%!important;}
+    .image-gallery a {float: left; display: block; margin: 0 0 1% 1%; width: 19%; text-align: center; text-decoration: none!important;}
+    .image-gallery a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
+    .image-gallery a img {width: 100%; display: block;}
 </style>
 
-<div class="image-gallery">
+<p class="image-gallery">
+
+{% assign extensions = ".jpg|.JPG|.jpeg|.JPEG|.png|.PNG|.gif|.GIF|.tiff|.TIFF" | split: "|" %}
 {% for file in site.static_files %}
-  {% assign shortname = file.basename | slice: 5, 25 %}
-  {% assign fullname = file.basename | slice: 5, 400 %}
+<!-- <p> {{file.extname}} is in {{extensions}} </p> -->
   {% if file.path contains include.folder %}
-  <div class="span300">
-  <a href="{{ file.path }}" caption="{{fullname}}">
-    {% if file.extname == '.jpg' or 
-      file.extname == '.jpeg' or 
-      file.extname == '.JPG' or 
-      file.extname == '.JPEG' %}      
-        <img src="//images.weserv.nl/?url=stupoole.github.io{{ file.path }}&w=300&h=300&output=jpg&t=square" alt="{{basename}}"/>
-      {% else if file.extname == '.png' or
-        file.extname ==".PNG" %}
-        <img src="//images.weserv.nl/?url=stupoole.github.io{{ file.path }}&w=300&h=300&output=png&t=square" alt="{{basename}}"/>
+    {% if extensions contains file.extname %}
+      {% assign filenameparts = file.path | split: "/" %}
+      {% assign filename = filenameparts | last | replace: file.extname,"" %}
+      <a href="{{ file.path }}" title="{{ filename }}">
+      <img src="//images.weserv.nl/?url={{ site.url | replace: 'http://',''}}
+      {{ file.path }}&w=300&h=300&output=jpg&q=50&t=square" alt="{{ filename }}" title="{{ filename }}" />
+      <span>{{ filename }}</span></a>
       {% endif %}
-  </a>
-  <p>{{ shortname }}</p>
-  </div>
   {% endif %}
-{% endfor %}
-</div>
+{% endfor %}</p>

@@ -34,7 +34,7 @@ permalink: "/research/thin_film/"
 <p>A schematic diagram of the Langmuir-Blodgett Trough</p>
 
 <div width="80%">
-<p><a href="/assets/pdfs/Thin Film Wrinkling.pdf" class="btn btn-pdf"><span class="icon"></span>Project Report</a></p>
+<p><a href="/assets/pdfs/Thin Film Wrinkling.pdf" target="_blank" class="btn btn-pdf"><span class="icon"></span>Project Report</a></p>
 
 
 

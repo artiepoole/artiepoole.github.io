@@ -18,7 +18,7 @@ The "kablet stand" as I called it is pictured right, where I was not using a mou
 <a href="/assets/img/projects/kablet/01 - The set up.jpg"><img src="/assets/img/projects/kablet/01 - The set up.jpg" alt="The Set Up.jpg" width="80%"></a>
 <p>Final Product</p>
 <div width="80%">
-<p><a href="/images/2015/04/23/kabletstand_images.html">See Full Album</a></p>
+<p><a href="/projects/kablet_images">See Full Album</a></p>
 </div>
 </div>
 </div>
