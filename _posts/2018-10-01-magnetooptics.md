@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Spin Flop in uniaxial antiferromagnet CuMnAs"
+title: "Antiferromagnetic Spintronics and Magneto-optics"
 date: 2018-10-01 16:00:00
 category: research
 tags: [magneto-optics, magnetism, antiferromagnet, spin, flop, spin-flop, electrical, switching, CuMnAs, Voigt, Effect]
