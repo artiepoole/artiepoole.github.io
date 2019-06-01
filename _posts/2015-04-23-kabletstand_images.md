@@ -11,3 +11,5 @@ permalink: "/projects/kablet_images/"
 
  {% include image-gallery.html folder="assets/img/projects/kablet" %}
 
+  <a href="/projects/kablet/">Back to Post</a>
+

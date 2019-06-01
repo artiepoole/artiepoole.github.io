@@ -9,13 +9,12 @@
 
 {% assign extensions = ".jpg|.JPG|.jpeg|.JPEG|.png|.PNG|.gif|.GIF|.tiff|.TIFF" | split: "|" %}
 {% for file in site.static_files %}
-<!-- <p> {{file.extname}} is in {{extensions}} </p> -->
   {% if file.path contains include.folder %}
     {% if extensions contains file.extname %}
       {% assign filenameparts = file.path | split: "/" %}
       {% assign filename = filenameparts | last | replace: file.extname,"" %}
       <a href="{{ file.path }}" title="{{ filename }}">
-      <img src="//images.weserv.nl/?url={{ site.url | replace: 'http://', ''}}{{ file.path }}&w=300&h=300&output={{file.extname | replace: '.', ''}}&q=50&t=square" alt="{{ filename }}" title="{{ filename }}" />
+      <img src="//images.weserv.nl/?url=stupoole.github.io{{ file.path }}&w=300&h=300&output=jpg&q=50&t=square" alt="{{ filename }}" title="{{ filename }}" />
       <span>{{ filename }}</span></a>
       {% endif %}
   {% endif %}

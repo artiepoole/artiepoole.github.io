@@ -43,3 +43,5 @@ permalink: /projects/
 </div>	
 </div>
 
+<script src="/js/jquery.min.js"></script>
+{% include text-expand.html %}

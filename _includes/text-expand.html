@@ -6,6 +6,12 @@
         if($(this).html()=='[/expand]') {
             $(this).addClass('expand_end');
         }
+        if($(this).html()=='[abstractexpand]') {
+            $(this).addClass('abstractexpand_start');
+        }
+        if($(this).html()=='[/abstractexpand]') {
+            $(this).addClass('abstractexpand_end');
+        }
     });
     $( "p.expand_start" ).each(function() {
         $(this).nextUntil( $("p.expand_end") ).wrapAll("<div class='expand' style='overflow: hidden;'></div>");
@@ -14,4 +20,11 @@
     });
     $( ".expand").hide();
     $( "p.expand_end" ).hide();
+    $( "p.abstractexpand_start" ).each(function() {
+    $(this).nextUntil( $("p.abstractexpand_end") ).wrapAll("<div class='abstractexpand' style='overflow: hidden;'></div>");
+    $(this).prev().append('<span>&nbsp; <a href="#" style="cursor: pointer;" onclick="$(this).parent().parent().next().slideToggle(); $(this).parent().hide();">Read&nbsp;Abstract&nbsp;&rarr;</a></span>');
+    $(this).remove()
+    });
+    $( ".abstractexpand").hide();
+    $( "p.abstractexpand_end" ).hide();
 </script>

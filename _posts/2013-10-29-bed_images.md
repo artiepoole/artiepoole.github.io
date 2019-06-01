@@ -9,3 +9,5 @@ permalink: "/projects/bed_images/"
 
 
  {% include image-gallery.html folder="assets/img/projects/bed" %}
+
+ <a href="/projects/bed/">Back to Post</a>
