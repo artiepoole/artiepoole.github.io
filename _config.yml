@@ -4,7 +4,7 @@ subtitle: Physicist & Tinkerer
 email: stuart.f.poole@gmail.com
 description: Postgraduate physicist at The University of Nottingham
 baseurl: / # the subpath of your site, e.g. /blog
-url: stupoole.github.io # the base hostname & protocol for your site
+url: # the base hostname & protocol for your site
 author: Stu Poole
 city: Nottingham
 country: United Kingdom
