@@ -29,7 +29,7 @@ show_tile: true
         {% endfor %}
         </ul>
 	</div>
-</section>was 
+</section>
 
 <!-- This code loads all posts and displays them -->
 <!-- Two -->
