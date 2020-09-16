@@ -1,15 +1,13 @@
-
-<div class="span1">
-{% if post.title %}
-  <h2 class="entry-title" id="{{post.title}}">
-    <!-- <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a> -->
-    {{post.title}}
-  </h2>      
-{% endif %}
-
-<div class="entry-content">{{ content }}</div>	
-</div>
-<div class="span1">
-<a class="button special" href="{{ root_url }}{{ post.url }}">View Separately</a>
-</div>
-
+<fullwidth>
+  <div class="content">
+      <div class="inner">
+      <header class="major" text-align="center" id="{{post.title}}">
+        <h3>{{post.title}}</h3>
+      </header>
+      {{ content }}
+      <ul class="actions">
+        <li><a class="button special" href="{{ root_url }}{{ post.url }}">View Separately</a></li>
+      </ul>
+    </div>
+  </div>
+</fullwidth>

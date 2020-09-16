@@ -48,6 +48,3 @@ nav-menu: true
 </div>	
 </div>
 </div>
-
-<script src="/js/jquery.min.js"></script>
-{% include text-expand.html %}

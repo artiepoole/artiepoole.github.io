@@ -66,10 +66,12 @@
 			list-style: none;
 			padding-left: 0;
 
+
 			li {
 				display: inline-block;
 				padding: 0 (_size(element-margin) * 0.5) 0 0;
 				vertical-align: middle;
+				margin-bottom: 1em;
 
 				&:last-child {
 					padding-right: 0;
