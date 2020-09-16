@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: landing
 permalink: /research/
 title: Physics Research
 description: A set of posts demonstrating the projects I undertake as part of my academic studies.
@@ -9,42 +9,35 @@ show_tile: true
 nav-menu: true
 ---
 
-<top>
-	<div class="container">
-	<h1> Research Projects</h1>
-	<p> Below is a summary of my previous research projects from my time at <a href="https://www.nottingham.ac.uk/physics">The University of Nottingham.</a> To learn more about the Spintronics Group at Nottingham visit <a href="https://nottingham.ac.uk/~ppzgan/spin/">the group's homepage</a> which I maintain.</p>
+<!-- This code and adds a button link to the contents page for posts about to be loaded.-->
+<section id="one" class="spotlights">
+	<div class="inner">
+		<header class="major">
+			<h2>Contents</h2>
+		</header>
+        <ul class="actions">
+        {% for post in site.posts %}
+        {% if post.category == "research" %}
+        <li margin-bottom=22>
+            {% if post.title.size > 28 %}
+        <a class="button" href="#{{ post.title }}">{{post.title | slice: 0, 25 }}...</a>
+            {% else %}
+        <a class="button" href="#{{ post.title }}">{{post.title}}</a>
+            {% endif %}
+        </li>
+        {% endif %}
+        {% endfor %}
+        </ul>
 	</div>
-</top>
-<div class="row">
-<div class="span1">
-	<ul>
-	  {% for post in site.posts %}
-	  	  {% if post.category == "research" %}
-	    <li>
-	      {% assign content = post.content %}
-	      {% include post_detail.html %}
-	    </li>
-	    {%endif%}
-	  {% endfor %}
-	</ul>
-</div>	
+</section>
 
-<div class="span2">
-<div class="floating-list">
-	<ul>
-	  {% for post in site.posts %}
-	  {% if post.category == "research" %}
-	    <li>
-	    	{% if post.title.size > 28 %}
-  		<a href="#{{ post.title }}">{{post.title | slice: 0, 25 }}...</a>
-	    	{% else %}
-		<a href="#{{ post.title }}">{{post.title}}</a>
-    		{% endif %}
-
-	    </li>
-	  {% endif %}
-	  {% endfor %}
-	</ul>
-</div>	
-</div>
-</div>
+<!-- This code loads all posts and displays them -->
+<!-- Two -->
+<fullwidth id="two" class="spotlights">
+    {% for post in site.posts %}
+    {% if post.category == "research" %}
+      {% assign content = post.content %}
+      {% include post_detail.html %}
+    {%endif%}
+    {% endfor %}
+</fullwidth>
