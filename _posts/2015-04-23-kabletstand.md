@@ -4,6 +4,7 @@ title: "Kablet Stand"
 date: 2015-04-23 16:00:00
 category: project
 tags: [keyboard, tablet, rack, stand, woodwork, carpentry, code, development, SSH]
+image: assets\img\projects\kablet\01 - The set up.jpg
 permalink: "/projects/kablet/"
 ---
 

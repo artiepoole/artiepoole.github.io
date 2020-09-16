@@ -1,6 +1,13 @@
 ---
-layout: default
+layout: post
 permalink: /projects/
+title: Design Projects
+landing-title: 'Personal Projects'
+description: A set of posts demonstrating the projects I undertake outside of work.
+image: /assets/img/tiles/projects.png
+author: Stu Poole
+nav-menu: true
+show_tile: true
 ---
 
 <!-- This code loads all posts and displays them -->

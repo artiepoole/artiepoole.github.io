@@ -1,15 +1,28 @@
-theme: jekyll-theme-hacker
-show_downloads: false
-
-title: Stuart F Poole | Physicist && Tinkerer
+# site settings
+title: Stu Poole
+subtitle: Physicist & Tinkerer
 email: stuart.f.poole@gmail.com
 description: Postgraduate physicist at The University of Nottingham
-github_username: stupoole
+baseurl: / # the subpath of your site, e.g. /blog
+url: stupoole.github.io # the base hostname & protocol for your site
 author: Stu Poole
-exclude: 
-  - Gemfile 
-  - Gemfile.lock
-
-url: stupoole.github.io
-baseurl: /
+city: Nottingham
+country: United Kingdom
 repository: stupoole/stupoole.github.io
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings
+github_url: https://github.com/stupoole
+orchid_url: https://orcid.org/0000-0001-7434-8550
+researchgate_url: https://www.researchgate.net/profile/Stuart_Poole
+linkedin_url: https://www.linkedin.com/
+scholar_url: https://scholar.google.co.uk/citations?user=aURex68AAAAJ&hl=en&oi=sra
+twitter_url: https://twitter.com/stupoole
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
