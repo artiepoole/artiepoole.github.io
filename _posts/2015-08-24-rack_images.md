@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: gallery
 title: "Peripheral Rack Gallery"
 date: 2015-08-24 17:00:00
 category: images
