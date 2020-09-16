@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: gallery
 title: "Kablet Stand Images"
 date: 2015-04-23 17:00:00
 category: images

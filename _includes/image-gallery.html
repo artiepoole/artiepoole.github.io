@@ -11,6 +11,7 @@
         width: 19%;
         text-align: center;
         text-decoration: none !important;
+        border-bottom: none;
     }
 
     .image-gallery a span {
@@ -35,12 +36,18 @@
     {% if extensions contains file.extname %}
     {% assign filenameparts = file.path | split: "/" %}
     {% assign filename = filenameparts | last | replace: file.extname,"" %}
-        <a href="{{ file.path }}" title="{{ filename }}">
-            <span class="image fit"><img src="{{file.path}}" alt=""/></span>
+
         {% if include.captions != false %}
+            <a href="{{ file.path }}" caption="{{ file.basename }}">
+            <span class="image fit"><img src="{{file.path}}" alt=""/></span>
             <span>{{ filename }}</span>
+            </a>
+        {% else %}
+            <a href="{{ file.path }}">
+            <span class="image fit"><img src="{{file.path}}" alt=""/></span>
+            </a>
         {% endif %}
-        </a>
+
     {% endif %}
     {% endif %}
     {% endfor %}
