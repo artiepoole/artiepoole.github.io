@@ -3,7 +3,7 @@ layout: landing
 permalink: /research/
 title: Physics Research
 description: A set of posts demonstrating the projects I undertake as part of my academic studies.
-image: /assets/img/tiles/research.jpg
+image: /assets/img/tiles/research2.jpg
 author: Stu Poole
 show_tile: true
 nav-menu: true
