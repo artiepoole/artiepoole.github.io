@@ -2,9 +2,9 @@
 title: About Me
 layout: landing
 description: null
-image: /assets/img/tiles/landing.jpg
+image: /assets/img/tiles/projects.png
 nav-menu: true
-permalink: /aboutme/
+permalink: /about/
 ---
 
 <!-- Main -->
@@ -177,15 +177,15 @@ permalink: /aboutme/
 
 </section>
 
-<!-- Four -->
+<!-- Closing remarks -->
 <section id="five">
 	<div class="inner">
 		<header class="major">
-			<h2>Massa libero</h2>
+			<h2>Thank you for taking an interest.</h2>
 		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+		<p>If you are interested in further information about any of these projects or are interested in offering me a chance to apply to your comapny, please do not hesitate to contact me using the form below. If you would like to see a summary of my projects and interests, please visit the highlights page using the link below:</p>
 		<ul class="actions">
-			<li><a href="generic.html" class="button next">Get Started</a></li>
+			<li><a href="/highlights/" class="button next"> View Highlights</a></li>
 		</ul>
 	</div>
 </section>
