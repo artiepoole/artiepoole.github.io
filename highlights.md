@@ -21,7 +21,7 @@ permalink: /highlights/
 		<p>My name is Stu Poole. I am a highly practical and well rounded postgraduate researcher in Spintronics at the
 		 School of Physics and Astronomy at The Univeristy of Nottingham. I have already undertaken many personal 
 		 projects in electronics, woodworking and 3D modelling/design but am always willing to jump in the deep end. 
-		 Below you will see a timeline and summary of these projects with links to find out more.</p>
+		 Below you will see a summary of these projects.</p>
 	</div>
 </section>
 
@@ -29,166 +29,119 @@ permalink: /highlights/
 <section id="two" class="spotlights">
 	<section>
 		<a href="/projects/peripheral_rack_images/" class="image">
-			<img src="{% link /assets/img/projects/rack/01 - Final Product.jpg %}" alt="" data-position="center center" />
+			<img src="{% link /assets/img/projects/RT/01 - finished kit.jpg %}" alt="" data-position="center center" />
+			<p class="align-center">Finished room temperature system showing sample space, control box and heatsinking.</p>
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Early Life</h3>
+					<h3>Equipment Design</h3>
 				</header>
-				<p> I grew up in the South East of England before moving to Nottingham to study an 
-                integrated masters in Physics. Throughout school, I was interested in STEM subjects and making things. 
-                My first experience with code was using Lua in a Minecraft mod with my brother and my first (documented, 
-                personal) woodworking project was the headphone and controller rack pictured beside but I had made 
-                several small things before this. The rack was posted to <a href="https://reddit.com">reddit</a> and 
-                received over a million views!</p>
+				<p>I have drawn many individual parts in cad, and made several larger assemblies. Several of the smaller parts have been 3D printed, such as a replacement handle for a Black and Decker workmate workbench and a controller for an Atari 8-bit computer from the '80s. In many of my projects you can see evidence of CAD and progression in skills using it. Recently I have focussed on learning best practices and integrating them into habits. For the following project, I drew a CAD model in the final size and had it manufactured by the in house workshop and LewVac.</p>
+				<p> As an example of my design skills, I present my room temperature system: I was tasked with designing a high vacuum, very stable temperature controller for measuring eletrical devices for the Spintronics group in UoN Physics. The stability is required to eliminate drift in resistance measurements and to cool the sample when under load. There were three main points in the brief:
+				<ul>
+				<li>The temperature of the sample space has to remain within 0.1°C of the set point which can be anywhere between 0°C and 50°C.</li>
+				<li>The sample, mounted to a 12 pin circular header, must be in high vacuum (10<sup>-5</sup> mBar) and have good thermal contact with the sample space with minimal thermal lag to the temperature control mechanism.</li>
+				<li>The measurement wires should be shielded from electrical noise.</li>
+                </ul>
+                I designed the vacuum chamber, heatsink and control box and then wrote a custom python interface for the control box to hide a lot of the dangerous settings available in the proprietary software for the temperature controller supplier. A Peltier device was chosen as the temperature control mechanism because it can be used to both heat and cool the sample space. Click the link below to find out why this made the design so challenging and to learn more about the system's applications. 
+                </p>
 				<ul class="actions">
-					<li><a href="/projects/peripheral_rack/" class="button">Learn more</a></li>
+					<li><a href="/projects/room temperature system/" class="button next">Learn more</a></li>
 					<li><a href="/projects/" class="button">See more projects</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
 	<section>
-		<a href="/research/thin_film/" class="image">
-			<img src="{% link assets/img/research/thin/newWrinkledImage-39-66-a=39-b=90.png %}" alt="" data-position="center center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Third Year Project</h3>
-				</header>
-				<p>During my third year at university, I undertook two research projects under 
-				<a hred="https://twitter.com/JamesSSharp">James Sharp's</a> supervision. The first was an attempt to 
-				measure the elastic modulus of a thin film by cutting it into an annulus, floating it on soapy water and
-				 taking pictures of it. It required solving an unwieldy elasticity equation from first principles, 
-				 developing an image analysis algorithm and delicate practical skills.</p>
-				<ul class="actions">
-					<li><a href="/research/thin_film/" class="button">Learn more</a></li>
-					<li><a href="assets/pdfs/Thin Film Wrinkling.pdf" target="_blank" class="button">Read my report</a></li>
-				</ul>
-                <p>The second was a summer internship in which Adidas sponsored us to try and measure the pressure 
-                distribution and contact forces on the sole of a shoe during exercise. They hoped this would help with 
-                rapid prototyping. To measure these forces, a piece of acrylic is illuminated such that the light is 
-                totally internally reflected throughout the resulting waveguide. Whenever an object makes contact with 
-                the surface, the object introduces an interface with a different refractive index and causes light to 
-                be scattered through the waveguide to the awaiting camera. </p>
+        <a href="/projects/adder images/" class="image">
+            <img src="{% link /assets/img/projects/adder/bad final.png %}" alt="" data-position="center center" />
+            <p class="align-center">Prototype adder box, not functioning.</p>
+        </a>
+        <div class="content">
+            <div class="inner">
+                <header class="major">
+                    <h3>Electronics</h3>
+                </header>
+                <p>I have undertaken many small electronics projects, such as replacing a power supply in an old BBC Master computer, making cables or analogue filters for laser experiments and the box for the temperature controller in the RT system, but the two largest projects are a cartridge emulator for Atari 8-bit series computers using, an Arduino Mega, with plans to replace it with a PIC after the proof of concept stage, and the following 8-bit adder interactive display.</p>
+                <p>I was left inspired by a series of videos in which Ben Eater makes an <a href="https://www.youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU" class="link">8-bit computer on breadboards</a>. I appreciated that the logic gates were all explained starting with discrete transistors before being replaced with more compact logic gate ICs. I wanted to make something to demonstrate how incredible modern CPUs are compared to discrete transistor logic, but also to show how it is possible to understand how computers work at a fundamental level. I decided that an 8-bit adder was a suitable scope for such a project. I also wanted to demonstrate how AND, OR and NOT gates can be used to make more complicated logical assemblies, such as a full adder, by grouping transistors into gates on separate full adder boards. The project was to be an interactive display which should introduce binary numbers, binary logic, and computing to visiting students and at other outreach events. I started with a prototype with each bit's adder on a piece of stripboard to test the circuitry and threw together a quick box (but ended up designing and making a PCB to convert the binary number into decimal on 7-segment displays) to make a proof of concept. This was not a total failure but some major oversights occurred. To learn why the prototype does not work, and how I ended up with a working final version, click the link below. 
+                </p>
                 <ul class="actions">
-                    <li><a href="/research/contact_forces/" class="button">Learn more</a></li>
-                    <li><a href="https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.10.034051" target="_blank" class="button">Read the paper</a></li>
-                    <li><a href="/research/" class="button">See more research</a></li>
+                    <li><a href="/projects/adder/" class="button next">Learn more</a></li>
+                    <li><a href="/projects/" class="button">See more projects</a></li>
                 </ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic09.jpg %}" alt="" data-position="top center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Stu the Builder</h3>
-				</header>
-				<p>During my time as an undergraduate, I spent any holidays and free time working for my landlord's 
-				contracted builder. Together, we refurbished student houses (including fitting en suites, removing 
-				walls, stripping plumbing and replacing the roof of a dodgy loft conversion) and built extensions for 
-				other clients. I was primarily involved in groundworks and roofing for the other clients but also helped
-				 with interior works on one build.</p>
-			</div>
-		</div>
-	</section>
+            </div>
+        </div>
+    </section>
+    <section>
+            <a href="" class="image">
+                <img src="{% link /assets/img/tiles/balding gate.png %}" alt="" data-position="center center" />
+                <p class="align-center">Balding Gate level editor</p>
+            </a>
+            <div class="content">
+                <div class="inner">
+                    <header class="major">
+                        <h3>Programming</h3>
+                    </header>
+                    <p>I've been writing code as a hobby since my first week at university, mostly for scientific purposes but also at hackathons and for fun. Apart from the following, my most significant projects are this website and the instruments package written for my research group which is an interface for controlling the equipment used by the group. The biggest programming endevour, however, is a game called Balding Gate which I am working on whenever my brother and I are together.</p>
+                    <p>On one warm night in Shoreditch, London, my brother was explaining the power of Kotlin to me, and describing how easy to learn, yet powerful it is. In a later discussion we were talking about a game called Baldur's Gate (hence the project name) and came up with an idea for an application which can be used to design, and also play out, encounters for tabletop role playing games such as dungeons and dragons. We thought it would be a good opportunity to use Kotlin and decided on a brief. It would be really cool to have a way to interactively draw a map, set up player characters, allies and enemies on that map and to then give them customisable rules and behaviours which the person running the encounter would implement in the tabletop game. This could be used to handle all the nitty gritty rules which slow down play and to mitigate the "total party kill" scenario (in which all the players die and the game is over) by testing the encounter beforehand. With this in place, the application could be used for story telling and as an open source "game engine" for turn and tile based games. The project is at a preliminarily working stage, in which the user can make and play out a scenario, however most of the editing is done outside of the app and the behaviours are baked in at this stage. To see more about this project or to learn about projects in other programming languages, click the links below.</p>
+                    <ul class="actions">
+                        <li><a href="/code/balding gate/" class="button next">Learn more</a></li>
+                        <li><a href="https://github.com/stupoole" class="button"><icon class="fab fa-github"></icon> View on GitHub</a></li>
+                        <li><a href="/code/" class="button">More code projects</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+            <a href="/projects/peripheral_rack_images/" class="image">
+                <img src="{% link /assets/img/tiles/research2.jpg %}" alt="" data-position="center center" />
+                <p class="align-center">Example Magneto-optical detection scheme</p>
+            </a>
+            <div class="content">
+                <div class="inner">
+                    <header class="major">
+                        <h3>Research</h3>
+                    </header>
+                    <p>I am currently doing an experimental physics PhD at the University of Nottingham, in particular in <a href="https://scholar.google.co.uk/scholar?cluster=9253624752299154943&hl=en">Antiferromagnetic Spintronics</a>. My research can be categorised into three main types of experiment: optical pump probe measurements, magnetoresistive electrical measurements and beamtime experiments (it would also be possible to break down my research into three major aims: to understand spin flop, to improve switching and to understand growth of the samples). For magnetooptical experiments, I use two beams of 80MHz pulses lasting <100fs. One beam is high power to pump a system into an excited state and then a weaker beam is used to probe the resulting physical changes in the sample. Primarily, I used delay line pump probe and asynchronous optical sampling to probe a CuMnAs layer's magnetic state using the Voigt efect. I also measured some acoustic coupling and some elastic constants using these techniques. This project involved international collaboration with TU Dortmund in Germany and Charles University in Prague. The magnetoresistive techniques probe magnetic changes in a sample by monitoring the resistance parallel to the flow of current and by measuring something analogous to the hall voltage perpendicular to the current. This was used to observe spin flop and is how we detect the promising current induced magnetic switching effects in CuMnAs. These experiments involve countless collaborations with leading researchers from around europe such as Academy of Sciences of the Czech Republic, Mainz University in Germany, Charles University in Prague, Regensburg University in Germany and Hitachi Cambridge. The beamtime experiments were primarily conducted in Oxfordshire, at Diamond Light Source and  ISIS Neutron and Muon source. The Diamond experiments involve imaging magnetic domains using XMLD-PEEM or observing magnetic dynamics using time resolved <a>something</a>. Please see the research page which separately describes the theory behind each each experiment and then the methods and setup for each experiment in detail. This page also provides links to learn more.</p>
+                    <ul class="actions">
+                        <li><a href="/research/" class="button">Research page</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+        <a href="/projects/peripheral_rack_images/" class="image">
+            <img src="{% link /assets/img/tiles/me.png %}" alt="" data-position="center center" />
+            <p class="align-center"></p>
+        </a>
+        <div class="content">
+            <div class="inner">
+                <header class="major">
+                    <h3>What makes me tick</h3>
+                </header>
+                <p>I hope you found my projects interesting and have learned something from them! If you're wondering what kind of person I am, and how I find time for these alongside my studies and life, you'll be glad to hear that I have a healthy work-life balance, finding time to cook and eat world foods, play board games and video games, socialise with friends, read books (sci-fi novels lately), hang out with my partner and go on adventures, hiking in the woods, climbing mountains and exploring new cities. I also watch a lot of educationl material on youtube (more technical than most people's), especially people like This Old Tony, who invites us into his shop to learn alongside him, with some incredibly cheesey gags and "dad jokes" along the way. Another favourite is Wintergatan, with his never ending Marble Machine X project, in which he tries to combine an entire secondary school music room with a marble run to make beautiful music (I believe!). I regularly look to EEVBlog for electrical engineering advice and to learn about novel circuits and "traps for young players" such as myself. For machining advice, I look to Abom79 and his sage-like patience. I sometimes even watch CAD tutorials for fun... If I can't find what I want there, I look around for other sources of reliable information, talk to real people or post on forums. I find an answer to your problem is much less valuable than an explanation of the problem at hand and a teacher is the best way to get that.</p>
+                <p>If you've read this far and are hiring, I'm really hoping you're now at the stage where you're thinking "these projects are interesting andthis guy seems capable, but is he a good fit for our company ethos?" First, thank you for considering me! I'd like to describe myself briefly, if I may. </p>
+                <p>Although this site is fairly casual (for the sake of preserving some essence of personality!) I am professional and responsible. With all my projects, I am concerned with my safety, the safety of the users and the safety of those around me, taking all necessary precautions and wearing suitable PPE even (especially) when at home.  In terms of cultural values, I am very progressive and open-minded and love surrounding myself with people from diverse backgrounds and learning from them and improving myself all the time. I always aim to treat people fairly and include them whenever I can, making sure they feel trusted. I am environmentally conscious and avoid unnecessary travel, especially flights (also, I don't drive or have a motor vehicle), and am opposed to wastefulness and planed obsolescence; I would much rather take apart and repair something broken than buy new every time something breaks. I remain positive in the face of defeat and have a real passion for making things, both large and small, complex and simple. I hope that my projects display my passion for engineering and demonstrate my innovation and creativity. I believe, that with the right guidance, I can achieve anything.</p>
+               <p> If you're wondering if I have any deal breaking personality traits, well I doubt it, but I do have a few peculiarities. For one, I have a tendency to find problems with things other people have no problem with. I customise everything I own to make it as nice as possible: I am a tinkerer. I tinker with everything. I oil hinges, I tighten screws, I change key bindings, I modify packages, I change colour schemes, I enable developer mode on my phone just to reduce the animation duration on overswipes, I 3D print a replacement part for a fan bracket, I make a doorstop to stop the door banging. It's not that I'm a perfectionist, I just don't let solvable problems persist. It is because of this trait that people know I fix things. Now I am asked to fix things by everyone who knows me. Computer not working? Take it to Stu. Bike broken? Stu. Espresso machine seized up with limescale? Stu. Fuse blown? Stu. Broken cable? Stu. Want to remove a fireplace? Stu (although I might need a hand with that one).</p>
+               <p> For another, I like the dark, the winter and the cold. Most people love going to sunny places to enjoy the beach, but I prefer cold and snow. I dragged my partner to Sweden in the middle of January a few years back and, while she enjoyed the city, food and entertainment, my favourite part was definitely the weather. </p>
+               <p>For a third, I don't care for statistics and trivia and find pub quizzes incredibly challenging because of this! I enjoy them, and did them regularly for a while, but my team and I were last in all rounds almost every time. Hopeless! The thing is, I could tell you something incredibly niche about some piece of 80s media format, but couldn't tell you the name of an England football player no matter how many times I've heard their names.</p>
+            </div>
+        </div>
+    </section>
 </section>
-
-<!-- Three -->
-<section id="three" class="spotlights">
-	<div class="inner">
-		<header class="major">
-			<h2>Spintronics Research</h2>
-		</header>
-		<p>This section describes research projects for PHD</p>
-	</div>
-</section>
-
-<!-- Four -->
-<section id="four" class="spotlights">
-	<section>
-		<a href="" class="image">
-			<img src="{% link assets/img/research/spinflop/CuMnAs.png%}" alt="" data-position="center center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Antiferromagnets and CuMnAs</h3>
-				</header>
-				<p> The <a href="https://en.wikipedia.org/wiki/Spintronics">spintronics</a> group at the University of 
-				Nottingham is split into two groups: ferromagnetic spintronics, headed by 
-				<a href="https://www.nottingham.ac.uk/physics/people/andrew.rushforth">Andrew Rushforth</a>, and 
-				antiferromagnetic (AFM) spintronics of which I am a part. AFM spintronics includes my supervisors, 
-				<a href="https://www.nottingham.ac.uk/Physics/People/kevin.edmonds">Kevin Edmonds</a> and
-				 <a href="https://www.nottingham.ac.uk/physics/people/peter.wadley">Peter Wadley</a> and is part of a 
-				 large international collaboration centered around the 
-				epitaxially grown thin film collinear antiferromanget, CuMnAs. When grown in the tetragonal phase, 
-				CuMnAs <a href="https://scholar.google.com/scholar?cluster=1087947713284700550&hl=en&as_sdt=0,5">demonstrates 
-				switching characteristics</a> which may prove to be applicable in low power and higher frequency 
-				computing than is currently available.</p>
-				<!-- # todo: need to write about supervisors and works and applications (briefly) and links to good sources of further info.-->
-				<ul class="actions">
-					<li><a href="https://scholar.google.com/scholar?cluster=7807042199177913451&hl=en&as_sdt=0,5" class="button">More about AFMs</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="/research/neutrons" class="image">
-			<img src="{% link assets/img/research/spinflop/xmld.png %}" alt="" data-position="center center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Spin Flop</h3>
-				</header>
-				<p> My masters thesis and the following year and half of PhD work were focussed on observing and 
-				understanding the phenomenon of spin flop in CuMnAs, hoping to find the values of the exchange and 
-				anisotropy fields for use in theoretical sumulations of the dynamics and to furhter our understanding of
-				 AFMs in general. I have attempted to use three techniques to measure spin flop and another was 
-				 conducted within the group. Overall, only one was unsuccessful, yet we still have questions and have 
-				 not solved for the relevant field strengths yet. My first technique was performed in my masters thesis,
-				  using the deflection caused by the moments in the material to determine the orinetation of the AFM 
-				  moments. This technique only measures relative changes and does not tell us much about the behaviour 
-				  of moments as a whole. The technique conducted by the group involved measuring the difference in 
-				  absorption of X-rays at two different polarisations and at two different energies in what's called 
-				  <a target="_blank" href="https://www.diamond.ac.uk/Instruments/Techniques/Spectroscopy/XMLD.html">XLMD-PEEM</a>. 
-				  This particular set up was only surface sensitive and posed the question "does spin flop occur 
-				  throughout the material or just at the surface?". These works are detailed in the masters thesis and spin flop paper below.</p>
-                <ul class="actions">
-                    <li><a href="assets/pdf/spin_flop.pdf/" class="button">Masters thesis</a></li>
-                    <li><a href="https://scholar.google.com/scholar?cluster=17203867773406290981&hl=en&as_sdt=0,5" target="_blank" class="button">Spin flop paper</a></li>
-                    <li><a href="/research/spin_flop/" class="button">Learn more</a></li>
-                </ul>
-                <p>The other two approaches are both sensitive to changes throughout the thickness of the layer. One 
-                involved high power, ultrafast physics and the other involved mangetic neutron scattering. Click the 
-                links below to find out more </p>
-				<ul class="actions">
-                    <li><a href="/research/lasers/" class="button">Lasers</a></li>
-                    <li><a href="/research/neutrons" class="button">Neutrons</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-
-</section>
-
-
 <section id="five">
 	<div class="inner">
 		<header class="major">
-			<h2>Thank you for taking an interest.</h2>
+			<h2>Thank you for taking an interest!</h2>
 		</header>
-		<p>If you are interested in further information about any of these projects or are interested in offering me a chance to apply to your comapny, please do not hesitate to contact me using the form below. If you would like more information about me and my life, see the link below:</p>
+		<p>If you are wanting further information about any of these projects or are considering offering me a chance to apply to work at your company, please do not hesitate to contact me using the form below. If you would like more information about me, my life, and how I got here, see the link below.</p>
 		<ul class="actions">
+		    <li><a href="#contact" class="button scrolly">Contact me</a></li>
 			<li><a href="/about/" class="button next">More about me</a></li>
-			<li><a href="#banner" class="button scrolly">Back to top</a></li>
+		</ul>
+		<ul class="actions">
+            <li><a href="#banner" class="button special scrolly">Back to top</a></li>
 		</ul>
 	</div>
 </section>
