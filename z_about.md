@@ -1,7 +1,7 @@
 ---
 title: About Me
 layout: landing
-description: null
+description: My name is Stu Poole. I am a highly practical and well rounded postgraduate researcher in Spintronics at the School of Physics and Astronomy at The Univeristy of Nottingham. I have already undertaken many personal projects in electronics, woodworking and 3D modelling/design but am always willing to jump in the deep end. Below you will see a timeline and summary of these projects with links to find out more.
 image: /assets/img/tiles/projects.png
 nav-menu: true
 permalink: /about/
@@ -9,19 +9,6 @@ permalink: /about/
 
 <!-- Main -->
 <div id="main">
-
-<!-- One -->
-<section id="one" class="spotlights">
-	<div class="inner">
-		<header class="major">
-			<h2>About Me</h2>
-		</header>
-		<p>My name is Stu Poole. I am a highly practical and well rounded postgraduate researcher in Spintronics at the
-		 School of Physics and Astronomy at The Univeristy of Nottingham. I have already undertaken many personal 
-		 projects in electronics, woodworking and 3D modelling/design but am always willing to jump in the deep end. 
-		 Below you will see a timeline and summary of these projects with links to find out more.</p>
-	</div>
-</section>
 
 <!-- Two -->
 <section id="two" class="spotlights">

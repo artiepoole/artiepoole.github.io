@@ -18,10 +18,9 @@ permalink: /highlights/
 		<header class="major">
 			<h2>About Me</h2>
 		</header>
-		<p>My name is Stu Poole. I am a highly practical and well rounded postgraduate researcher in Spintronics at the
-		 School of Physics and Astronomy at The Univeristy of Nottingham. I have already undertaken many personal 
-		 projects in electronics, woodworking and 3D modelling/design but am always willing to jump in the deep end. 
-		 Below you will see a summary of these projects.</p>
+		<p> I am a highly practical and well rounded postgraduate researcher in Spintronics at the
+		 School of Physics and Astronomy at The University of Nottingham, plannning on moving into an engineering role developing equipment or instruments for scientific research or industry. I have undertaken many personal projects involving mechanical design, electronics and code in various programming languages and I am always willing to jump in the deep end. This page provides an example of a project primarily in design, electronics and programming followed by an overview of my ongoing research, and a bit more about me.</p>
+
 	</div>
 </section>
 
