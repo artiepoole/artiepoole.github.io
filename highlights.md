@@ -36,7 +36,7 @@ permalink: /highlights/
 				<header class="major">
 					<h3>Equipment Design</h3>
 				</header>
-				<p>I have drawn many individual parts in cad, and made several larger assemblies. Several of the smaller parts have been 3D printed, such as a replacement handle for a Black and Decker workmate workbench and a controller for an Atari 8-bit computer from the '80s. In many of my projects you can see evidence of CAD and progression in skills using it. Recently I have focussed on learning best practices and integrating them into habits. For the following project, I drew a CAD model in the final size and had it manufactured by the in house workshop and LewVac.</p>
+				<p>I have drawn many individual parts in CAD, and made several larger assemblies. Several of the smaller parts have been 3D printed, such as a replacement handle for a Black and Decker workmate workbench and a controller for an Atari 8-bit computer from the '80s. In many of my projects you can see evidence of CAD and progression in skills using it. Recently I have focussed on learning best practices and integrating them into habits. For the following project, I drew a CAD model in the final size and had it manufactured by the in house workshop and LewVac.</p>
 				<p> As an example of my design skills, I present my room temperature system: I was tasked with designing a high vacuum, very stable temperature controller for measuring eletrical devices for the Spintronics group in UoN Physics. The stability is required to eliminate drift in resistance measurements and to cool the sample when under load. There were three main points in the brief:
 				<ul>
 				<li>The temperature of the sample space has to remain within 0.1°C of the set point which can be anywhere between 0°C and 50°C.</li>
