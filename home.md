@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: Welcome to my  Work in Progress Homepage
+landing-title: Welcome to my homepage
 description: null
 image: null
 author: null
