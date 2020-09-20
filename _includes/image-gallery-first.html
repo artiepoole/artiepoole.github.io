@@ -1,0 +1,75 @@
+<style>
+    .image-gallery {
+        overflow: auto;
+        margin-left: -1% !important;
+    }
+
+    icon {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .image-gallery a {
+        float: left;
+        display: block;
+        position: relative;
+        margin: 0 0 1% 1%;
+        text-align: center;
+        text-decoration: none !important;
+        border-bottom: none;
+    }
+
+    .image-gallery.hidden {
+        display: none !important;
+        width: 0%;
+    }
+
+    .fill a {
+        max-width: 100% !important;
+        object-fit: contain;
+    }
+
+
+    .image-gallery a span {
+        display: block;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        padding: 3px 0;
+    }
+
+    .image-gallery a img {
+        width: 100%;
+        display: block;
+    }
+</style>
+
+<div class="row 50% uniform">
+    <p class="image-gallery">
+        {% assign extensions = ".jpg|.JPG|.jpeg|.JPEG|.png|.PNG|.gif|.GIF|.tiff|.TIFF" | split: "|" %}
+        {% assign sorted = site.static_files | sort: 'date' | reverse %}
+        {% assign first = true %}
+
+        {% for file in site.static_files %}
+        {% if file.path contains include.folder and extensions contains file.extname %}
+
+        {% assign filenameparts = file.path | split: "/" %}
+        {% assign filename = filenameparts | last | replace: file.extname,"" %}
+
+
+        {% if first != true%}
+        <a class="hidden" href="{{ file.path }}" caption="{{ file.basename }}">
+        </a>
+        {% else %}
+        <a href="{{ file.path }}" caption="{{ file.basename }}" class="fill">
+            <span class="image fit"><img src="{{file.path}}" alt=""/><icon class="fas fa-images fa-2x"></icon></span>
+        </a>
+        {% endif %}
+        {% if first == true %}
+        {% assign first=false %}
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+    </p>
+</div>
