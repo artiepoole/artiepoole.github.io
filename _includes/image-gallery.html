@@ -8,11 +8,23 @@
         float: left;
         display: block;
         margin: 0 0 1% 1%;
-        width: 19%;
         text-align: center;
         text-decoration: none !important;
         border-bottom: none;
     }
+
+    .image-gallery.hidden {
+        display: none !important;
+        width: 0%;
+    }
+    .small a{
+        max-width: 30%;
+    }
+    .fill a{
+        max-width: 100% !important;
+        object-fit: contain;
+    }
+
 
     .image-gallery a span {
         display: block;
@@ -32,25 +44,39 @@
     <p class="image-gallery">
         {% assign extensions = ".jpg|.JPG|.jpeg|.JPEG|.png|.PNG|.gif|.GIF|.tiff|.TIFF" | split: "|" %}
         {% assign sorted = site.static_files | sort: 'date' | reverse %}
+        {% assign draw = true %}
+        {% if include.captions == first_only %}
+        {% assign size = 'class="fill"' %}
+        {% else %}
+        {% assign size = 'class="small"' %}
+        {% endif %}
         {% for file in site.static_files %}
         {% if file.path contains include.folder %}
         {% if extensions contains file.extname %}
+
         {% assign filenameparts = file.path | split: "/" %}
         {% assign filename = filenameparts | last | replace: file.extname,"" %}
 
-        {% if include.captions != false %}
-            <a href="{{ file.path }}" caption="{{ file.basename }}">
+        {% if include.captions == true and draw == true %}
+        <a href="{{ file.path }}" caption="{{ file.basename }}" {{size}}>
             <span class="image fit"><img src="{{file.path}}" alt=""/></span>
-            </a>
-            {% if include.captions != half %}
             <span>{{file.basename}}</span>
-            {% endif %}
-        {% else %}
-        <a href="{{ file.path }}">
+        </a>
+        {% elsif include.captions == half and draw == true%}
+        <a href="{{ file.path }}" caption="{{ file.basename }}" {{size}}>
             <span class="image fit"><img src="{{file.path}}" alt=""/></span>
         </a>
+        {% elsif draw == true %}
+        <a href="{{ file.path }}" {{size}}>
+            <span class="image fit"><img src="{{file.path}}" alt=""/></span>
+        </a>
+        {% else %}
+        <a class="hidden" href="{{ file.path }}" caption="{{ file.basename }}">
+        </a>
         {% endif %}
-
+        {% if include.first_only == true %}
+        {% assign draw = false %}
+        {% endif %}
         {% endif %}
         {% endif %}
         {% endfor %}

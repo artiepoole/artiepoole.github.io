@@ -9,6 +9,6 @@ permalink: "/projects/peripheral_rack_images/"
 
 
 
- {% include image-gallery.html folder="assets/img/projects/rack" %}
+ {% include image-gallery.html folder="assets/img/projects/rack" captions=true%}
 
  <a href="/projects/peripheral_rack/">Back to Post</a>
