@@ -240,7 +240,12 @@
         //add the image lightbox on click
         $("a.lightbox-image").click(function (event) {
             event.preventDefault();
-            $('<div class="lightbox"><a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><img src="' + $(this).attr('href') + '" alt="' + $(this).attr('title') + '" title="' + $(this).attr('title') + '" /><span>' + $(this).text() + '</span></div>').appendTo('body');
+            if (typeof $(this).attr('caption') !== typeof undefined){
+            $('<div class="lightbox"><a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><img src="' + $(this).attr('href') + '" alt="' + $(this).attr('title') + '" title="' + $(this).attr('title') + '" />' + '<span>' + $(this).attr('caption') + '</span></div>').appendTo('body')}
+            else {
+                $('<div class="lightbox"><a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><img src="' + $(this).attr('href') + '" alt="' + $(this).attr('title') + '" title="' + $(this).attr('title') + '" />').appendTo('body')
+            }
+
         });
         //add the vimeo lightbox on click
         $("body").on("click", "a.lightbox-vimeo", function (event) {
