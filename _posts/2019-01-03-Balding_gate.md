@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Balding Gate - a TTRPG emulation engine"
+title: "Balding Gate - a TTRPG Emulation Engine"
 date: 2019-01-03 16:00:00
 category: code
 image: assets\img\projects\baldinggate\02 - level editor window.png

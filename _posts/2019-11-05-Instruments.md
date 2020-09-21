@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Instrument control package"
+title: "Instrument Control Package"
 date: 2019-11-05 09:00:00
 category: code
 image: null

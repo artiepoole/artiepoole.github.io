@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Measuring the elastic modulus of thin film annuli using capillary wrinkling"
+title: "Measuring the Elastic Modulus of Thin Film Annuli Using capillary wrinkling"
 date: 2017-05-16 16:00:00
 category: research
 tags: [Soft condensed matter, Thin-film, polystyrene, material properties, stress, strain, wrinkling, annulus]
