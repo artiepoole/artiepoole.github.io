@@ -7,14 +7,16 @@
     .image-gallery a {
         float: left;
         display: block;
+        position: relative;
         margin: 0 0 1% 1%;
         text-align: center;
         text-decoration: none !important;
         border-bottom: none;
+        cursor: zoom-in;
     }
 
-    .small a{
-        width: 30%
+    a.small{
+        width: 30% !important;
     }
 
     .image-gallery a span {
@@ -51,7 +53,7 @@
                 <span class="image fit"><img src="{{file.path}}" alt=""/></span>
             </a>
             {% else %}
-            <a href="{{ file.path }}" {{size}} class="small">
+            <a href="{{ file.path }}" class="small">
                 <span class="image fit"><img src="{{file.path}}" alt=""/></span>
             </a>
             {% endif %}

@@ -23,5 +23,5 @@ For my 3rd year project/BSc dissertation equivalent, my lab partner Dom and I we
 <span class="image left"><a class="image" href="/assets/img/research/thin/LBTroughDrawing.png"><img src="/assets/img/research/thin/LBTroughDrawing.png" alt="LB Trough Diagram"></a></span>After the project was completed and I'd had a break, I attempted to derive the form of the wrinkling from first principles using the 3D stress and strain relations and the known initial conditions and constraints. The resulting differential equations were intractable and required a lot of work and yielded similarly as horrendous equations as before. Because the equations are so unwieldy, the technique was decided to be infeasible and impractical, leaving it abandoned. </p>
 
 <ul class="actions">
-    <li><a class="button" target="_blank" href="/assets/pdfs/Thin Film Wrinkling.pdf"> <icon class="fas fa-file-pdf"></icon> View Project Report</a></li>
+    <li><a class="button" target="_blank" href="/assets/pdfs/Thin Film Wrinkling.pdf"> <span class="fas fa-file-pdf"></span> View Project Report</a></li>
 </ul>
