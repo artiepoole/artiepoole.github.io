@@ -18,6 +18,7 @@
         text-align: center;
         text-decoration: none !important;
         border-bottom: none;
+        cursor: zoom-in;
     }
 
     .image-gallery.hidden {
@@ -62,8 +63,8 @@
         <a class="hidden" href="{{ file.path }}" caption="{{ file.basename }}">
         </a>
         {% else %}
-        <a href="{{ file.path }}" caption="{{ file.basename }}" class="fill">
-            <span class="image fit"><img src="{{file.path}}" alt=""/><icon class="fas fa-images fa-2x"></icon></span>
+        <a href="{{ file.path }}" caption="{{ file.basename }}" title="View Gallery" class="fill">
+            <span class="image fit"><img src="{{file.path}}" alt="View Gallery"/><icon class="fas fa-images fa-2x"></icon></span>
         </a>
         {% endif %}
         {% if first == true %}
