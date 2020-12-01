@@ -1,6 +1,6 @@
 ---
 layout: landing
-title: Coding Projects
+title: Coding and Hackathons
 description: null
 image: /assets/img/tiles/code.jpg
 author: Stu Poole

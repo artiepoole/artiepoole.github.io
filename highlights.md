@@ -57,12 +57,12 @@ permalink: /highlights/
             <img src="{% link /assets/img/projects/adder/bad final.png %}" alt="" data-position="center center" />
             <p class="align-center">Prototype adder box, not functioning.</p>
         </a>
-        <div class="content">
+        <div class="content" id="electronics">
             <div class="inner">
                 <header class="major">
                     <h3>Electronics</h3>
                 </header>
-                <p>I have undertaken many small electronics projects, such as replacing a power supply in an old BBC Master computer, making cables or analogue filters for laser experiments and the box for the temperature controller in the RT system, but the two largest projects are a cartridge emulator for Atari 8-bit series computers using, an Arduino Mega, with plans to replace it with a PIC after the proof of concept stage, and the following 8-bit adder interactive display.</p>
+                <p>I have undertaken many small electronics projects, such as replacing a power supply in an old BBC Master computer, making cables or analogue filters for laser experiments and the box for the temperature controller in the RT system, but the two largest projects are a cartridge emulator for Atari 8-bit series computers using, an Arduino Mega, with plans to replace it with a PIC after the proof of concept stage, and the following 8-bit adder interactive display. I have also focused on hardware-software interfacing in programming for my research and in my contribution to hackathon entries (see <a class="scrolly" href="#programming">Programming</a> for more on hackathons) but I also helped with all the circuitry in those projects (where applicable).</p>
                 <p>I was left inspired by a series of videos in which Ben Eater makes an <a href="https://www.youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU" class="link">8-bit computer on breadboards</a>. I appreciated that the logic gates were all explained starting with discrete transistors before being replaced with more compact logic gate ICs. I wanted to make something to demonstrate how incredible modern CPUs are compared to discrete transistor logic, but also to show how it is possible to understand how computers work at a fundamental level. I decided that an 8-bit adder was a suitable scope for such a project. I also wanted to demonstrate how AND, OR and NOT gates can be used to make more complicated logical assemblies, such as a full adder, by grouping transistors into gates on separate full adder boards. The project was to be an interactive display which should introduce binary numbers, binary logic, and computing to visiting students and at other outreach events. I started with a prototype with each bit's adder on a piece of stripboard to test the circuitry and threw together a quick box (but ended up designing and making a PCB to convert the binary number into decimal on 7-segment displays) to make a proof of concept. This was not a total failure but some major oversights occurred. To learn why the prototype does not work, and how I ended up with a working final version, click the link below. 
                 </p>
                 <ul class="actions">
@@ -77,17 +77,18 @@ permalink: /highlights/
                 <img src="{% link /assets/img/tiles/balding gate.png %}" alt="" data-position="center center" />
                 <p class="align-center">Balding Gate level editor</p>
             </a>
-            <div class="content">
+            <div class="content" id="programming">
                 <div class="inner">
                     <header class="major">
                         <h3>Programming</h3>
                     </header>
-                    <p>I've been writing code as a hobby since my first week at university, mostly for scientific purposes but also at hackathons and for fun. Apart from the following, my most significant projects are this website and the instruments package written for my research group which is an interface for controlling the equipment used by the group. The biggest programming endevour, however, is a game called Balding Gate which I am working on whenever my brother and I are together.</p>
+                    <p>I've been writing code as a hobby since my first week at university, mostly for scientific purposes but also at <a href="https://en.wikipedia.org/wiki/Hackathon">hackathons</a> (24 hour programming/hardware competitions) and for fun. My teams and I are very proud to say that we won prizes at most of the hackathons we attended and typically stood out as the only hardware projects on display. Our projects include an Amazon Alexa controlled robot Budweiser box and a dice rolling app for the (now discontinued) pebble classic smart watch.</p>
+             <p>Apart from the following application, my most significant programming projects are this website and the instruments package written for my research group which is an interface for controlling the equipment used by the group. The biggest programming endeavour, however, is a game called Balding Gate which I am working on whenever my brother and I are together.</p>
                     <p>On one warm night in Shoreditch, London, my brother was explaining the power of Kotlin to me, and describing how easy to learn, yet powerful it is. In a later discussion we were talking about a game called Baldur's Gate (hence the project name) and came up with an idea for an application which can be used to design, and also play out, encounters for tabletop role playing games such as dungeons and dragons. We thought it would be a good opportunity to use Kotlin and decided on a brief. It would be really cool to have a way to interactively draw a map, set up player characters, allies and enemies on that map and to then give them customisable rules and behaviours which the person running the encounter would implement in the tabletop game. This could be used to handle all the nitty gritty rules which slow down play and to mitigate the "total party kill" scenario (in which all the players die and the game is over) by testing the encounter beforehand. With this in place, the application could be used for story telling and as an open source "game engine" for turn and tile based games. The project is at a preliminarily working stage, in which the user can make and play out a scenario, however most of the editing is done outside of the app and the behaviours are baked in at this stage. To see more about this project or to learn about projects in other programming languages, click the links below.</p>
                     <ul class="actions">
                         <li><a href="/code/balding gate/" class="button next">Learn more</a></li>
                         <li><a href="https://github.com/stupoole" class="button"><icon class="fab fa-github"></icon> View on GitHub</a></li>
-                        <li><a href="/code/" class="button">More code projects</a></li>
+                        <li><a href="/code/" class="button">More about these projects</a></li>
                     </ul>
                 </div>
             </div>
