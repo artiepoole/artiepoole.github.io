@@ -1,9 +1,9 @@
 ---
 layout: landing
 permalink: /projects/
-title: Design Projects
+title: Design Projects and Repairs
 landing-title: 'Personal Projects'
-description: A set of posts demonstrating the projects I undertake outside of work.
+description: A set of posts demonstrating the CAD/Repair projects I undertake outside of work.
 image: /assets/img/tiles/projects2.jpg
 author: Stu Poole
 nav-menu: true
