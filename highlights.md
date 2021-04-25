@@ -27,7 +27,7 @@ permalink: /highlights/
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<a href="/projects/peripheral_rack_images/" class="image">
+		<a href="/projects/#Room_Temperature_System" class="image">
 			<img src="{% link /assets/img/projects/RT/01 - finished kit.jpg %}" alt="" data-position="center center" />
 			<p class="align-center">Finished room temperature system showing sample space, control box and heatsinking.</p>
 		</a>
@@ -46,14 +46,14 @@ permalink: /highlights/
                 I designed the vacuum chamber, heatsink and control box and then wrote a custom python interface for the control box to hide a lot of the dangerous settings available in the proprietary software for the temperature controller supplier. A Peltier device was chosen as the temperature control mechanism because it can be used to both heat and cool the sample space. Click the link below to find out why this made the design so challenging and to learn more about the system's applications. 
                 </p>
 				<ul class="actions">
-					<li><a href="/projects/room temperature system/" class="button next">Learn more</a></li>
+					<li><a href="/projects/#Room_Temperature_System" class="button next">Learn more</a></li>
 					<li><a href="/projects/" class="button">See more projects</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
 	<section>
-        <a href="/projects/adder images/" class="image">
+        <a href="/projects/#Interactive_8-bit_Adder_From_Discrete_Components" class="image">
             <img src="{% link /assets/img/projects/adder/bad final.png %}" alt="" data-position="center center" />
             <p class="align-center">Prototype adder box, not functioning.</p>
         </a>
@@ -73,7 +73,7 @@ permalink: /highlights/
         </div>
     </section>
     <section>
-            <a href="" class="image">
+            <a href="/code/#Balding_Gate_-_a_TTRPG_Emulation_Engine" class="image">
                 <img src="{% link /assets/img/tiles/balding gate.png %}" alt="" data-position="center center" />
                 <p class="align-center">Balding Gate level editor</p>
             </a>
@@ -94,7 +94,24 @@ permalink: /highlights/
             </div>
         </section>
         <section>
-            <a href="/projects/peripheral_rack_images/" class="image">
+            <a href="/projects/#Crokinole_Board" class="image">
+                <img src="{% link /assets/img/tiles/crokinole.jpg %}" alt="" data-position="center center" />
+                <p class="align-center">Crokinole Board, Discs and Bowl</p>
+            </a>
+            <div class="content">
+                <div class="inner">
+                    <header class="major">
+                        <h3>Woodwork/DIY</h3>
+                    </header>
+                    <p>I really like to make things (as if that wasn't already clear) and one of the easiest materials to get started working with is wood because the materials are readily available and it is possible to do a lot of things with few expensive tools (by using hand tools). It is for this reason that most of my projects are woodworking, not because it is my favourite. I leanred a lot from my dad but also worked as a joiner's labourer during many of my undergraduate holidays. Recently I have been working on garden furniture: planters, compost bin and a bench. These were all made from recycled pallets wood during lockdown, which seems to have been a trend. This was done almost entirely without power tools, only using a hand me down orbital sander and drill + impact driver duo. When I head home to visit my parents, I try to do projects with them since my dad is much more equipped and has the space and money for more sophisticated projects. In a summer visit I tiled their downstairs bathroom and did a few small DIY projects with my dad but over the christmas break we made a crokinole board (a tabletop game somewhere between curling/boules and pool with DNA from shuffleboard and air hockey) to play with family and friends. In the past my dad and I made a folding bed, a headphone+xbox 360 controller stand and several other small projects and it is always a joy to have access to his tools, knowledge and company!</p>
+                    <ul class="actions">
+                        <li><a href="/research/" class="button">Research page</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+            <a class="image">
                 <img src="{% link /assets/img/tiles/research2.jpg %}" alt="" data-position="center center" />
                 <p class="align-center">Example Magneto-optical detection scheme</p>
             </a>
@@ -110,8 +127,11 @@ permalink: /highlights/
                 </div>
             </div>
         </section>
+
+
+
         <section>
-        <a href="/projects/peripheral_rack_images/" class="image">
+        <a class="image">
             <img src="{% link /assets/img/tiles/me.png %}" alt="" data-position="center center" />
             <p class="align-center"></p>
         </a>
