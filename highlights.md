@@ -26,10 +26,9 @@ permalink: /highlights/
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<a href="/projects/#Room_Temperature_System" class="image">
-			<img src="{% link /assets/img/projects/RT/01 - finished kit.jpg %}" alt="" data-position="center center" />
-			<p class="align-center">Finished room temperature system showing sample space, control box and heatsinking.</p>
-		</a>
+        <span class="image left"> 
+        <div class="ratio-square"> <iframe class="ratio-inner" title="Peltier Controlled Vacuum System - Exploded View" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/7c1241b2a7914d39afcc135100ca44ca/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #FFFFFF;"></p></div>
+        </span>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
