@@ -34,14 +34,20 @@ permalink: /highlights/
 				<header class="major">
 					<h3>Equipment Design</h3>
 				</header>
-				<p>I have drawn many individual parts in CAD, and made several larger assemblies. Several of the smaller parts have been 3D printed, such as a replacement handle for a Black and Decker workmate workbench and a controller for an Atari 8-bit computer from the '80s. In many of my projects you can see evidence of CAD and progression in skills using it. Recently I have focussed on learning best practices and integrating them into habits. For the following project, I drew a CAD model in the final size and had it manufactured by the in house workshop and LewVac.</p>
+				<p>I have drawn many individual parts in CAD, and made several larger assemblies. Several of the smaller parts have been 3D printed, such as a replacement handle for a Black and Decker workmate workbench and a controller for an Atari 8-bit computer from the '80s. In many of my projects you can see evidence of CAD and progression in skills using it. Recently I have focussed on learning best practices and trying to form good habits. For the following project, I drew a CAD model in the final size and had it manufactured by the in house workshop and LewVac.</p>
 				<p> As an example of my design skills, I present my room temperature system: I was tasked with designing a high vacuum, very stable temperature controller for measuring eletrical devices for the Spintronics group in UoN Physics. The stability is required to eliminate drift in resistance measurements and to cool the sample when under load. There were three main points in the brief:
 				<ul>
 				<li>The temperature of the sample space has to remain within 0.1°C of the set point which can be anywhere between 0°C and 50°C.</li>
 				<li>The sample, mounted to a 12 pin circular header, must be in high vacuum (10<sup>-5</sup> mBar) and have good thermal contact with the sample space with minimal thermal lag to the temperature control mechanism.</li>
 				<li>The measurement wires should be shielded from electrical noise.</li>
                 </ul>
-                I designed the vacuum chamber, heatsink and control box and then wrote a custom python interface for the control box to hide a lot of the dangerous settings available in the proprietary software for the temperature controller supplier. A Peltier device was chosen as the temperature control mechanism because it can be used to both heat and cool the sample space. Click the link below to find out why this made the design so challenging and to learn more about the system's applications. 
+                It turns out that we achieve:
+				<ul>
+				<li> Temperature stability within 0.005°C in a range from -10 to 60°C.</li>
+				<li>The vacuum reaches (10<sup>-8</sup> mBar) and the thermal lag is less than a minute from Peltier to sample, with no drift in temperature throughout measurement</li>
+				<li>The crosstalk is not noticable as larger than usual measurement noise.</li>
+                </ul>
+                I designed the vacuum chamber, heatsink and control box and then wrote a custom python interface for the control box to hide a lot of the dangerous settings available in the proprietary software for the temperature controller supplier. A Peltier device was chosen as the temperature control mechanism because it can be used to both heat and cool the sample space. Click the link below to find out why this made the design so challenging and to learn more about the system's applications. A scientific paper describing the key features and operating parameters is a WIP.
                 </p>
 				<ul class="actions">
 					<li><a href="/projects/#Room_Temperature_System" class="button next">More on the RTS</a></li>
@@ -52,19 +58,18 @@ permalink: /highlights/
 	</section>
 	<section>
         <a href="/projects/#Interactive_8-bit_Adder_From_Discrete_Components" class="image">
-            <img src="{% link /assets/img/projects/adder/bad final.png %}" alt="" data-position="center center" />
-            <p class="align-center">Prototype adder box, not functioning.</p>
+            <img src="{% link /assets/img/projects/2WireLEDDriver/01 - Finished, lid off.jpg %}" alt="" data-position="center center" />
+            <p class="align-center">Assembled dimmable 2-wire LED driver.</p>
         </a>
         <div class="content" id="electronics">
             <div class="inner">
                 <header class="major">
                     <h3>Electronics</h3>
                 </header>
-                <p>I have undertaken many small electronics projects, such as replacing a power supply in an old BBC Master computer, making cables or analogue filters for laser experiments and the box for the temperature controller in the RT system, but the two largest projects are a cartridge emulator for Atari 8-bit series computers using, an Arduino Mega, with plans to replace it with a PIC after the proof of concept stage, and the following 8-bit adder interactive display. I have also focused on hardware-software interfacing in programming for my research and in my contribution to hackathon entries (see <a class="scrolly" href="#programming">Programming</a> for more on hackathons) but I also helped with all the circuitry in those projects (where applicable).</p>
-                <p>I was left inspired by a series of videos in which Ben Eater makes an <a href="https://www.youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU" class="link">8-bit computer on breadboards</a>. I appreciated that the logic gates were all explained starting with discrete transistors before being replaced with more compact logic gate ICs. I wanted to make something to demonstrate how incredible modern CPUs are compared to discrete transistor logic, but also to show how it is possible to understand how computers work at a fundamental level. I decided that an 8-bit adder was a suitable scope for such a project. I also wanted to demonstrate how AND, OR and NOT gates can be used to make more complicated logical assemblies, such as a full adder, by grouping transistors into gates on separate full adder boards. The project was to be an interactive display which should introduce binary numbers, binary logic, and computing to visiting students and at other outreach events. I started with a prototype with each bit's adder on a piece of stripboard to test the circuitry and threw together a quick box (but ended up designing and making a PCB to convert the binary number into decimal on 7-segment displays) to make a proof of concept. This was not a total failure but some major oversights occurred. To learn why the prototype does not work, and how I ended up with a working final version, click the link below. 
-                </p>
+                <p>I have undertaken many small electronics projects, such as replacing a power supply in an old BBC Master computer, making cables or analogue filters for laser experiments and the box for the temperature controller in the RT system. The two other largest projects are a cartridge emulator for Atari 8-bit series computers using, an Arduino Mega, with plans to replace it with a PIC after the proof of concept stage, and a display board demonstrating the function of an 8-bit adder for outreach purposes. I have also focused on hardware-software interfacing in programming for my research and in my contribution to hackathon entries (see <a class="scrolly" href="#programming">Programming</a> for more on hackathons) but I  helped with all the circuitry in those projects (where applicable). My most impressive electronics project is the following LED driver.</p>
+                <p>Two-wire LED drivers work by oscillating the polarity of a driving DC current applied to a string of LEDs with sections of opposing polarity LEDs. This allows for easy assembly and control of the LEDs for animations and so on for Christmas lights. Typically, the controllers come programmed with several fun animations however they were all too bright for me and I just wanted soft lighting. I wanted to make a simple dimmable LED string driver for a 2-wire LED chain. As always, things got out of hand and the project ended up quite sophisticated. See the image on the right for a sneak-peak and click below to find out more.</p>
                 <ul class="actions">
-                    <li><a href="/projects/adder/" class="button next">More on the adder</a></li>
+                    <li><a href="/projects/2WireLEDDriver/" class="button next">More on LED Driver</a></li>
                     <li><a href="/projects/" class="button">See more projects</a></li>
                 </ul>
             </div>
