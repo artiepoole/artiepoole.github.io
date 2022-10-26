@@ -14,7 +14,7 @@ permalink: "/projects/chess board/"
 </span>
 
 <p>
-Despite not enjoying chess, I made this chess board for my colleagues to play on, since they were using a small travel board regularly at work.
+Despite not enjoying chess, I made this chess board for my colleagues to play on, since they were using a small travel board regularly at work. The pieces are heavily inspired by <a href="https://youtu.be/FW6P9rNeIYk">this video</a> where I took the same premise of making the pieces on the table saw but chose to modify the proportions. To choose the proportions, a parametric CAD design was drawn for each piece and multiple version were produced. Choosing the best of these, the parameters were tweaked further by hand until a preference for ratios was found. The board design is original, and the thin trim of ash is used to create contrast between the oak/sapele board and the sapele boarder. The squares are mounted to a 3/4" thick sheet of MDF to improve stability/prevent warping. 
 </p>
 
 
