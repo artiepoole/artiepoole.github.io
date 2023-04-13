@@ -3,7 +3,7 @@ layout: landing
 title: Highlights
 description: null
 image: /assets/img/tiles/smiley_display.jpg
-author: Stu Poole
+author: Stuart Poole
 show_tile: true
 nav-menu: false
 permalink: /highlights/
@@ -18,16 +18,33 @@ permalink: /highlights/
 		<header class="major">
 			<h2>About Me</h2>
 		</header>
-		<p> I am a highly practical and well rounded postgraduate researcher in Spintronics at the
-		 School of Physics and Astronomy at The University of Nottingham, plannning on moving into an engineering role developing equipment or instruments for scientific research or industry. I have undertaken many personal projects involving mechanical design, electronics and code in various programming languages and I am always willing to jump in the deep end. This page provides an example of a project primarily in design, electronics and programming followed by an overview of my ongoing research, and a bit more about me.</p>
+		<p> I am a highly practical and well-rounded physicist, having studied antiferromagnetic spintronics and magnetooptics for my PhD (viva pending) at the University of Nottingham. During the PhD, I discovered that working with equipment, setting up new experiments and doing these experiments is far more enjoyable than the more academic aspects of research. Therefore, I am aiming to adopt a role as a technician or to work in equipment/instrument design with the aim of contributing to science in ways I am more suited to. I have undertaken many personal projects involving mechanical design, electronics and code in various programming languages, and I am always willing to jump in the deep end to learn new practical skills. With access to my dad's workshop and some tools of my own, I undertake woodworking projects as a hobby and have worked as an assistant to a builder/joiner and renovated houses and built extensions, developing a very board suite of skills and varied understanding of how things work, which have been demonstrated as remarkable applicable to the laboratory environment, as witnessed by my supervisors. This page provides a summary of my PhD research, followed by examples of four projects, each primarily showcasing: equipment design skills, woodwork, electronics knowledge and programming skills, followed by a bit more about me.</p>
 	</div>
 </section>
 
 <!-- Two -->
 <section id="two" class="spotlights">
+    <section>
+        <span class="image">
+            <img src="{% link /assets/img/tiles/research2.jpg %}" alt="" data-position="center center" />
+            <p class="align-center">Example Magneto-optical detection scheme</p>
+        </span>
+        <div class="content">
+            <div class="inner">
+                <header class="major">
+                    <h3>Research</h3>
+                </header>
+                <p>I am currently doing an experimental physics PhD at the University of Nottingham, in particular in <a href="https://scholar.google.co.uk/scholar?cluster=9253624752299154943&hl=en">Antiferromagnetic Spintronics</a>. My research can be categorised into three main types of experiment: optical pump probe measurements, magnetoresistive electrical measurements and beamtime experiments (it would also be possible to break down my research into three major aims: to understand spin flop, to improve switching and to understand growth of the samples). For magnetooptical experiments, I use two beams of 80MHz pulses lasting <100fs. One beam is high power to pump a system into an excited state and then a weaker beam is used to probe the resulting physical changes in the sample. Primarily, I used delay line pump probe and asynchronous optical sampling to probe a CuMnAs layer's magnetic state using the Voigt efect. I also measured some acoustic coupling and some elastic constants using these techniques. This project involved international collaboration with TU Dortmund in Germany and Charles University in Prague. The magnetoresistive techniques probe magnetic changes in a sample by monitoring the resistance parallel to the flow of current and by measuring something analogous to the hall voltage perpendicular to the current. This was used to observe spin flop and is how we detect the promising current induced magnetic switching effects in CuMnAs. These experiments involve countless collaborations with leading researchers from around europe such as Academy of Sciences of the Czech Republic, Mainz University in Germany, Charles University in Prague, Regensburg University in Germany and Hitachi Cambridge. The beamtime experiments were primarily conducted in Oxfordshire, at Diamond Light Source and  ISIS Neutron and Muon source. The Diamond experiments involve imaging magnetic domains using XMLD-PEEM or observing magnetic dynamics using time resolved <a>something</a>. Please see the research page which separately describes the theory behind each each experiment and then the methods and setup for each experiment in detail. This page also provides links to learn more.</p>
+                <ul class="actions">
+                    <li><a href="/research/" class="button next">More Research</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
 	<section>
         <span class="image left"> 
         <div class="ratio-square"> <iframe class="ratio-inner" title="Peltier Controlled Vacuum System - Exploded View" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/7c1241b2a7914d39afcc135100ca44ca/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #FFFFFF;"></p></div>
+        <p class="align-center">3D model of the room temperature vacuum system</p>
         </span>
 		<div class="content">
 			<div class="inner">
@@ -56,11 +73,30 @@ permalink: /highlights/
 			</div>
 		</div>
 	</section>
+    <section>
+        <span class="image">
+            <img src="{% link /assets/img/tiles/crokinole.jpg %}" alt="" data-position="center center" />
+            <p class="align-center">Crokinole Board, Discs and Bowl</p>
+        </span>span>
+        <div class="content">
+            <div class="inner">
+                <header class="major">
+                    <h3>Woodwork and DIY</h3>
+                </header>
+                <p>I really like to make things (as if that wasn't already clear) and one of the easiest materials to get started with is wood because the materials are readily available and it is possible to do a lot of things with few expensive tools (by using hand tools). It is for this reason that most of my projects are woodworking, not because it is my favourite. To get where I am now, I learned most of what I know from my dad but also worked as a joiner's labourer during many of my undergraduate holidays. Recently I have been working on garden furniture: planters, <a href="\assets\img\projects\misc\compost bin 01 - finished product.jpg">compost bin</a> and a <a href="\assets\img\projects\misc\Bench 01.jpg">bench</a>. These were all made from recycled pallets wood during lockdown, which seems to have been a trend. This was done almost entirely without power tools, only using a hand me down orbital sander and drill + impact driver duo. When I head home to visit my parents, I try to do projects with them since my mum is overflowing with ideas and my dad is much more equipped and has the space and money for more sophisticated projects. In summer 2020 I <a href="\assets\img\projects\misc\tiling 02.jpg">tiled</a> their downstairs bathroom and did a few small DIY projects with my dad (including fitting <a href="\assets\img\projects\misc\dads lights 01.jpg">LED light strips</a> in the workshop) but over that Christmas break we made a <a href="/projects/#Crokinole_Board">crokinole board</a> (a tabletop game somewhere between curling/boules and pool with DNA from shuffleboard and air hockey) to play with family and friends. The following year we made a <a href="/projects/#Chess_Board">chess board</a>. In the past my dad and I made a <a href="/projects/#Futon_Bed_Project">folding bed</a>, a <a href="/projects/#Peripheral_Rack">headphone and xbox 360 controller stand</a> and several other small projects. It is always a joy to have access to his tools, knowledge and company!</p>
+                <ul class="actions">
+                    <li><a href="/projects/#Crokinole_Board" class="button next">More on Crokinole</a></li>
+                    <li><a href="/projects/#Chess_Board" class="button next">More on the Chess Board</a></li>
+                    <li><a href="/projects/" class="button">See More Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
 	<section>
-        <a href="/projects/#Interactive_8-bit_Adder_From_Discrete_Components" class="image">
+        <span class="image">
             <img src="{% link /assets/img/projects/2WireLEDDriver/01 - Finished, lid off.jpg %}" alt="" data-position="center center" />
             <p class="align-center">Assembled dimmable 2-wire LED driver.</p>
-        </a>
+        </span>
         <div class="content" id="electronics">
             <div class="inner">
                 <header class="major">
@@ -76,63 +112,27 @@ permalink: /highlights/
         </div>
     </section>
     <section>
-            <a href="/code/#Balding_Gate_-_a_TTRPG_Emulation_Engine" class="image">
-                <img src="{% link /assets/img/tiles/balding gate.png %}" alt="" data-position="center center" />
-                <p class="align-center">Balding Gate level editor</p>
-            </a>
-            <div class="content" id="programming">
-                <div class="inner">
-                    <header class="major">
-                        <h3>Programming</h3>
-                    </header>
-                    <p>I've been writing code as a hobby since my first week at university, mostly for scientific purposes but also at <a href="https://en.wikipedia.org/wiki/Hackathon">hackathons</a> (24 hour programming/hardware competitions) and for fun. My teams and I are very proud to say that we won prizes at most of the hackathons we attended and typically stood out as the only hardware projects on display. Our projects include an Amazon Alexa controlled robot Budweiser box and a dice rolling app for the (now discontinued) pebble classic smart watch. During my PhD, I created an <a href="https://github.com/stupoole/Instruments">instrument control package</a> containing classes for each instrument used regularly and methods to control them in typical applications. The classes also provide a way to control the instruments in unique ways. For this package, I also wrote scripts which utilise the package as <a href="https://github.com/stupoole/instrumentsexamples">examples</a> and to be used/modified for standard experiments.</p>
-             <p>Apart from the following application, my most significant programming projects are this website and the instruments package written for my research group which is an interface for controlling the equipment used by the group. The biggest programming endeavour, however, is a game called Balding Gate which I am working on whenever my brother and I are together.</p>
-                    <p>On one warm night in Shoreditch, London, my brother was explaining the power of Kotlin to me, and describing how easy to learn, yet powerful it is. In a later discussion we were talking about a game called Baldur's Gate (hence the project name) and came up with an idea for an application which can be used to design, and also play out, encounters for tabletop role playing games such as dungeons and dragons. We thought it would be a good opportunity to use Kotlin and decided on a brief. It would be really cool to have a way to interactively draw a map, set up player characters, allies and enemies on that map and to then give them customisable rules and behaviours which the person running the encounter would implement in the tabletop game. This could be used to handle all the nitty gritty rules which slow down play and to mitigate the "total party kill" scenario (in which all the players die and the game is over) by testing the encounter beforehand. With this in place, the application could be used for story telling and as an open source "game engine" for turn and tile based games. The project is at a preliminarily working stage, in which the user can make and play out a scenario, however most of the editing is done outside of the app and the behaviours are baked in at this stage. To see more about this project or to learn about projects in other programming languages, click the links below.</p>
-                    <ul class="actions">
-                        <li><a href="/code/balding gate/" class="button next">More on Balding Gate</a></li>
-                        <li><a href="https://github.com/stupoole" class="button"><icon class="fab fa-github"></icon> View on GitHub</a></li>
-                        <li><a href="/code/" class="button">More programming projects</a></li>
-                    </ul>
-                </div>
+        <span class="image">
+            <img src="{% link /assets/img/tiles/balding gate.png %}" alt="" data-position="center center" />
+            <p class="align-center">Balding Gate level editor</p>
+        </span>
+        <div class="content" id="programming">
+            <div class="inner">
+                <header class="major">
+                    <h3>Programming</h3>
+                </header>
+                <p>I've been writing code as a hobby since my first week at university, mostly for scientific purposes but also at <a href="https://en.wikipedia.org/wiki/Hackathon">hackathons</a> (24 hour programming/hardware competitions) and for fun. My teams and I are very proud to say that we won prizes at most of the hackathons we attended and typically stood out as the only hardware projects on display. Our projects include an Amazon Alexa controlled robot Budweiser box and a dice rolling app for the (now discontinued) pebble classic smart watch. During my PhD, I created an <a href="https://github.com/stupoole/Instruments">instrument control package</a> containing classes for each instrument used regularly and methods to control them in typical applications. The classes also provide a way to control the instruments in unique ways. For this package, I also wrote scripts which utilise the package as <a href="https://github.com/stupoole/instrumentsexamples">examples</a> and to be used/modified for standard experiments.</p>
+                <p>Apart from the following application, my most significant programming projects are this website and the instruments package written for my research group which is an interface for controlling the equipment used by the group. The biggest programming endeavour, however, is a game called Balding Gate which I am working on whenever my brother and I are together.</p>
+                <p>On one warm night in Shoreditch, London, my brother was explaining the power of Kotlin to me, and describing how easy to learn, yet powerful it is. In a later discussion we were talking about a game called Baldur's Gate (hence the project name) and came up with an idea for an application which can be used to design, and also play out, encounters for tabletop role playing games such as dungeons and dragons. We thought it would be a good opportunity to use Kotlin and decided on a brief. It would be really cool to have a way to interactively draw a map, set up player characters, allies and enemies on that map and to then give them customisable rules and behaviours which the person running the encounter would implement in the tabletop game. This could be used to handle all the nitty gritty rules which slow down play and to mitigate the "total party kill" scenario (in which all the players die and the game is over) by testing the encounter beforehand. With this in place, the application could be used for story telling and as an open source "game engine" for turn and tile based games. The project is at a preliminarily working stage, in which the user can make and play out a scenario, however most of the editing is done outside of the app and the behaviours are baked in at this stage. To see more about this project or to learn about projects in other programming languages, click the links below.</p>
+                <ul class="actions">
+                    <li><a href="/code/balding gate/" class="button next">More on Balding Gate</a></li>
+                    <li><a href="https://github.com/stupoole" class="button"><icon class="fab fa-github"></icon> View on GitHub</a></li>
+                    <li><a href="/code/" class="button">More programming projects</a></li>
+                </ul>
             </div>
-        </section>
-        <section>
-            <a href="/projects/#Crokinole_Board" class="image">
-                <img src="{% link /assets/img/tiles/crokinole.jpg %}" alt="" data-position="center center" />
-                <p class="align-center">Crokinole Board, Discs and Bowl</p>
-            </a>
-            <div class="content">
-                <div class="inner">
-                    <header class="major">
-                        <h3>Woodwork and DIY</h3>
-                    </header>
-                    <p>I really like to make things (as if that wasn't already clear) and one of the easiest materials to get started with is wood because the materials are readily available and it is possible to do a lot of things with few expensive tools (by using hand tools). It is for this reason that most of my projects are woodworking, not because it is my favourite. To get where I am now, I learned most of what I know from my dad but also worked as a joiner's labourer during many of my undergraduate holidays. Recently I have been working on garden furniture: planters, <a href="\assets\img\projects\misc\compost bin 01 - finished product.jpg">compost bin</a> and a <a href="\assets\img\projects\misc\Bench 01.jpg">bench</a>. These were all made from recycled pallets wood during lockdown, which seems to have been a trend. This was done almost entirely without power tools, only using a hand me down orbital sander and drill + impact driver duo. When I head home to visit my parents, I try to do projects with them since my mum is overflowing with ideas and my dad is much more equipped and has the space and money for more sophisticated projects. In summer 2020 I <a href="\assets\img\projects\misc\tiling 02.jpg">tiled</a> their downstairs bathroom and did a few small DIY projects with my dad (including fitting <a href="\assets\img\projects\misc\dads lights 01.jpg">LED light strips</a> in the workshop) but over that Christmas break we made a <a href="/projects/#Crokinole_Board">crokinole board</a> (a tabletop game somewhere between curling/boules and pool with DNA from shuffleboard and air hockey) to play with family and friends. The following year we made a <a href="/projects/#Chess_Board">chess board</a>. In the past my dad and I made a <a href="/projects/#Futon_Bed_Project">folding bed</a>, a <a href="/projects/#Peripheral_Rack">headphone and xbox 360 controller stand</a> and several other small projects. It is always a joy to have access to his tools, knowledge and company!</p>
-                    <ul class="actions">
-                        <li><a href="/projects/#Crokinole_Board" class="button next">More on Crokinole</a></li>
-                        <li><a href="/projects/#Chess_Board" class="button next">More on the Chess Board</a></li>
-                        <li><a href="/projects/" class="button">See More Projects</a></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section>
-            <a class="image">
-                <img src="{% link /assets/img/tiles/research2.jpg %}" alt="" data-position="center center" />
-                <p class="align-center">Example Magneto-optical detection scheme</p>
-            </a>
-            <div class="content">
-                <div class="inner">
-                    <header class="major">
-                        <h3>Research</h3>
-                    </header>
-                    <p>I am currently doing an experimental physics PhD at the University of Nottingham, in particular in <a href="https://scholar.google.co.uk/scholar?cluster=9253624752299154943&hl=en">Antiferromagnetic Spintronics</a>. My research can be categorised into three main types of experiment: optical pump probe measurements, magnetoresistive electrical measurements and beamtime experiments (it would also be possible to break down my research into three major aims: to understand spin flop, to improve switching and to understand growth of the samples). For magnetooptical experiments, I use two beams of 80MHz pulses lasting <100fs. One beam is high power to pump a system into an excited state and then a weaker beam is used to probe the resulting physical changes in the sample. Primarily, I used delay line pump probe and asynchronous optical sampling to probe a CuMnAs layer's magnetic state using the Voigt efect. I also measured some acoustic coupling and some elastic constants using these techniques. This project involved international collaboration with TU Dortmund in Germany and Charles University in Prague. The magnetoresistive techniques probe magnetic changes in a sample by monitoring the resistance parallel to the flow of current and by measuring something analogous to the hall voltage perpendicular to the current. This was used to observe spin flop and is how we detect the promising current induced magnetic switching effects in CuMnAs. These experiments involve countless collaborations with leading researchers from around europe such as Academy of Sciences of the Czech Republic, Mainz University in Germany, Charles University in Prague, Regensburg University in Germany and Hitachi Cambridge. The beamtime experiments were primarily conducted in Oxfordshire, at Diamond Light Source and  ISIS Neutron and Muon source. The Diamond experiments involve imaging magnetic domains using XMLD-PEEM or observing magnetic dynamics using time resolved <a>something</a>. Please see the research page which separately describes the theory behind each each experiment and then the methods and setup for each experiment in detail. This page also provides links to learn more.</p>
-                    <ul class="actions">
-                        <li><a href="/research/" class="button next">More Research</a></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section>
+        </div>
+    </section>
+    <section>
         <a class="image">
             <img src="{% link /assets/img/tiles/me.png %}" alt="" data-position="center center" />
             <p class="align-center"></p>

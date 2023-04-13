@@ -1,6 +1,6 @@
 # site settings
-title: Stu Poole
-subtitle: Physicist & Tinkerer
+title: Stuart Poole
+subtitle: Physicist, Maker, Climber
 email: stuart.f.poole@gmail.com
 description: Postgraduate physicist at The University of Nottingham
 baseurl:  # the subpath of your site, e.g. /blog
@@ -16,10 +16,7 @@ tiles-count: 6
 # social settings
 github_url: https://github.com/stupoole
 orchid_url: https://orcid.org/0000-0001-7434-8550
-researchgate_url: https://www.researchgate.net/profile/Stuart_Poole
-linkedin_url: https://www.linkedin.com/
-scholar_url: https://scholar.google.co.uk/citations?user=aURex68AAAAJ&hl=en&oi=sra
-twitter_url: https://twitter.com/stupoole
+linkedin_url: https://www.linkedin.com/in/sfpoole/
 
 # build settings
 markdown: kramdown

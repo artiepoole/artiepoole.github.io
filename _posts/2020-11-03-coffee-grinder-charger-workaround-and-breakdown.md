@@ -2,7 +2,7 @@
 layout: post
 title: "Coffee Grinder Teardown and Charging Port Workaround"
 date: 2020-11-20 16:00:00
-category: project
+category: hidden
 permalink: "/projects/coffee grinder/"
 ---
 

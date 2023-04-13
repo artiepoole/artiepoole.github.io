@@ -9,10 +9,8 @@ permalink: "/projects/instruments/"
 
 <div>
 
-<span class="image left"> {% include image-gallery-first.html folder="assets/img/projects/instruments" %}</span>
-
 <p>
-
+Throughout my PhD research, I programmatically interfaced with many instruments. In order to expedite the programming, I wrote a package which handles common procedures used in the associated experiments. This package has become ubiquitous within the research group so it was made available on GitHub. 
 </p>
 </div>
 

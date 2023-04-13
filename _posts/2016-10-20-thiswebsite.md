@@ -10,7 +10,7 @@ permalink: "/projects/this/"
 <div>
 
 
-<p>Although, the original website was made in 2016, this version of the website, with nice interactability and more modern appearance was only published in 2019 using the "name of theme" theme for the basis of the style and a heavily modified version of"name of lightbox creator with link" for the image gallery lightbox you may have encountered. </p>
+<p>This website, which you see here, uses an <a url="https://html5up.net/">HTML5 UP</a> template which was converted to use Jekyll (for use on GitHub Pages) by Andrew Banchich </p>
 </div>
 
 <ul class="actions">

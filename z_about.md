@@ -1,9 +1,10 @@
 ---
 title: About Me
 layout: landing
-description: My name is Stu Poole. I am a highly practical and well rounded postgraduate researcher in Spintronics at the School of Physics and Astronomy at The Univeristy of Nottingham. I have already undertaken many personal projects in electronics, woodworking and 3D modelling/design but am always willing to jump in the deep end. Below you will see a timeline and summary of these projects with links to find out more.
+description: My name is Stuart Poole. I am a highly practical and well-rounded postgraduate researcher in Spintronics at the School of Physics and Astronomy at The Univeristy of Nottingham. I have already undertaken many personal projects in electronics, woodworking and 3D modelling/design but am always willing to jump in the deep end. Below you will see a timeline and summary of these projects with links to find out more.
 image: /assets/img/tiles/projects.png
-nav-menu: true
+show_tile: False
+nav-menu: false
 permalink: /about/
 ---
 
