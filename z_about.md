@@ -1,10 +1,10 @@
 ---
 title: About Me
 layout: landing
-description: My name is Stuart Poole. I am a highly practical and well-rounded postgraduate researcher in Spintronics at the School of Physics and Astronomy at The Univeristy of Nottingham. I have already undertaken many personal projects in electronics, woodworking and 3D modelling/design but am always willing to jump in the deep end. Below you will see a timeline and summary of these projects with links to find out more.
+description: My name is Stuart Poole. I am a highly practical and well-rounded physicist, having studied antiferromagnetic spintronics and magnetooptics for my PhD (viva pending) at the University of Nottingham. During the PhD, I discovered that working with equipment, setting up new experiments and doing these experiments is far more enjoyable than the more academic aspects of research. Therefore, I am aiming to adopt a role as a technician or to work in equipment/instrument design with the aim of contributing to science in ways I am more suited to. I have undertaken many personal projects involving mechanical design, electronics and code in various programming languages, and I am always willing to jump in the deep end to learn new practical skills. With access to my dad's workshop and some tools of my own, I undertake woodworking projects as a hobby and have worked as an assistant to a builder/joiner and renovated houses and built extensions, developing a very board suite of skills and varied understanding of how things work, which have been demonstrated as remarkable applicable to the laboratory environment.
 image: /assets/img/tiles/projects.png
 show_tile: False
-nav-menu: false
+nav-menu: True
 permalink: /about/
 ---
 
@@ -25,9 +25,8 @@ permalink: /about/
 				<p> I grew up in the South East of England before moving to Nottingham to study an 
                 integrated masters in Physics. Throughout school, I was interested in STEM subjects and making things. 
                 My first experience with code was using Lua in a Minecraft mod with my brother and my first (documented, 
-                personal) woodworking project was the headphone and controller rack pictured beside but I had made 
-                several small things before this. The rack was posted to <a href="https://reddit.com">reddit</a> and 
-                received over a million views!</p>
+                personal) woodworking project was the headphone and controller rack pictured beside, but I had made 
+                several small things before this. </p>
 				<ul class="actions">
 					<li><a href="/projects/peripheral_rack/" class="button">Learn more</a></li>
 					<li><a href="/projects/" class="button">See more projects</a></li>
@@ -45,7 +44,7 @@ permalink: /about/
 					<h3>Third Year Project</h3>
 				</header>
 				<p>During my third year at university, I undertook two research projects under 
-				<a hred="https://twitter.com/JamesSSharp">James Sharp's</a> supervision. The first was an attempt to 
+				<a href="https://twitter.com/JamesSSharp" target="_blank">James Sharp's</a> supervision. The first was an attempt to 
 				measure the elastic modulus of a thin film by cutting it into an annulus, floating it on soapy water and
 				 taking pictures of it. It required solving an unwieldy elasticity equation from first principles, 
 				 developing an image analysis algorithm and delicate practical skills.</p>
@@ -69,7 +68,7 @@ permalink: /about/
 	</section>
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic09.jpg %}" alt="" data-position="top center" />
+			<img src="{% link assets/img/workshop.jpg %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -80,7 +79,7 @@ permalink: /about/
 				contracted builder. Together, we refurbished student houses (including fitting en suites, removing 
 				walls, stripping plumbing and replacing the roof of a dodgy loft conversion) and built extensions for 
 				other clients. I was primarily involved in groundworks and roofing for the other clients but also helped
-				 with interior works on one build.</p>
+				 with interior works.</p>
 			</div>
 		</div>
 	</section>
@@ -90,18 +89,18 @@ permalink: /about/
 <section id="three" class="spotlights">
 	<div class="inner">
 		<header class="major">
-			<h2>Spintronics Research</h2>
+			<h2>Spintronic and Magnetooptical Research: Masters and PhD</h2>
 		</header>
-		<p>This section describes research projects for PHD</p>
 	</div>
 </section>
 
 <!-- Four -->
 <section id="four" class="spotlights">
 	<section>
-		<a href="" class="image">
+		<span class="image">
 			<img src="{% link assets/img/research/spinflop/CuMnAs.png%}" alt="" data-position="center center" />
-		</a>
+            <p class="align-center"> Tetragonal CuMnAs unit cell</p>
+		</span>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -110,55 +109,53 @@ permalink: /about/
 				<p> The <a href="https://en.wikipedia.org/wiki/Spintronics">spintronics</a> group at the University of 
 				Nottingham is split into two groups: ferromagnetic spintronics, headed by 
 				<a href="https://www.nottingham.ac.uk/physics/people/andrew.rushforth">Andrew Rushforth</a>, and 
-				antiferromagnetic (AFM) spintronics of which I am a part. AFM spintronics includes my supervisors, 
+				antiferromagnetic (AFM) spintronics of which I am a part. The AFM spintronics group includes my supervisors, 
 				<a href="https://www.nottingham.ac.uk/Physics/People/kevin.edmonds">Kevin Edmonds</a> and
 				 <a href="https://www.nottingham.ac.uk/physics/people/peter.wadley">Peter Wadley</a> and is part of a 
-				 large international collaboration centered around the 
-				epitaxially grown thin film collinear antiferromanget, CuMnAs. When grown in the tetragonal phase, 
+				 large international collaboration centered around the epitaxially grown thin film collinear antiferromanget, CuMnAs. When grown in the tetragonal phase, 
 				CuMnAs <a href="https://scholar.google.com/scholar?cluster=1087947713284700550&hl=en&as_sdt=0,5">demonstrates 
 				switching characteristics</a> which may prove to be applicable in low power and higher frequency 
-				computing than is currently available.</p>
-				<!-- # todo: need to write about supervisors and works and applications (briefly) and links to good sources of further info.-->
+				computing than is currently available. The current state of research is focussing on understanding magnetic domain structures and their corresponding physical origins, topologically protected magnetic features and new characeterisation techniques for determining magnetic ansitropy, imaging domain structures and detecting electrically induced changes.</p>
 				<ul class="actions">
-					<li><a href="https://scholar.google.com/scholar?cluster=7807042199177913451&hl=en&as_sdt=0,5" class="button">More about AFMs</a></li>
-				</ul>
+					<li><a href="https://scholar.google.com/citations?user=ae7B7ukAAAAJ&hl=en&oi=ao" class="button" target="_blank">More about AFMs</a></li>
+				</ul>   
 			</div>
 		</div>
 	</section>
 	<section>
-		<a href="/research/neutrons" class="image">
-			<img src="{% link assets/img/research/spinflop/xmld.png %}" alt="" data-position="center center" />
-		</a>
+		<span class="image">
+			<img src="{% link assets/img/research/spinflop/neutronssummary.png %}" alt="" data-position="center center" />
+            <p class="align-center"> Summary of Magnetic Neutron Diffraction spin flop experiment</p>
+		</span>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
 					<h3>Spin Flop</h3>
 				</header>
-				<p> My masters thesis and the following year and half of PhD work were focussed on observing and 
-				understanding the phenomenon of spin flop in CuMnAs, hoping to find the values of the exchange and 
-				anisotropy fields for use in theoretical sumulations of the dynamics and to furhter our understanding of
-				 AFMs in general. I have attempted to use three techniques to measure spin flop and another was 
-				 conducted within the group. Overall, only one was unsuccessful, yet we still have questions and have 
-				 not solved for the relevant field strengths yet. My first technique was performed in my masters thesis,
-				  using the deflection caused by the moments in the material to determine the orinetation of the AFM 
-				  moments. This technique only measures relative changes and does not tell us much about the behaviour 
-				  of moments as a whole. The technique conducted by the group involved measuring the difference in 
-				  absorption of X-rays at two different polarisations and at two different energies in what's called 
-				  <a target="_blank" href="https://www.diamond.ac.uk/Instruments/Techniques/Spectroscopy/XMLD.html">XLMD-PEEM</a>. 
-				  This particular set up was only surface sensitive and posed the question "does spin flop occur 
-				  throughout the material or just at the surface?". These works are detailed in the masters thesis and spin flop paper below.</p>
+				<p> My Master's thesis and a significant part of my PhD work were focussed on observing, understanding and using the phenomenon of spin flop in CuMnAs, hoping to find the values of the exchange and anisotropy fields for use in theoretical simulations of the dynamics and to use spin flop as a useful test of new characterisation techniques. My first measurements of spin flop formed the basis of my Master's thesis, using anisotropic magnetoresistance transport measurements to detect the reoirentation of the moments. This technique only measures relative changes and does not tell us much about the behaviour of moments as a whole. The technique conducted by the group involved measuring the difference in absorption of X-rays at two different polarisations and at two different energies in what's called <a target="_blank" href="https://www.diamond.ac.uk/Instruments/Techniques/Spectroscopy/XMLD.html">XLMD-PEEM</a>. This particular set up was only surface sensitive and posed the question "does spin flop occur throughout the material or just at the surface?". This was answered by detecting spin flop in the bulk of the film using magnetic neutron diffraction. These works are detailed in the master's thesis and two peer reviewed articles below.</p>
                 <ul class="actions">
-                    <li><a href="assets/pdf/spin_flop.pdf/" class="button">Masters thesis</a></li>
-                    <li><a href="https://scholar.google.com/scholar?cluster=17203867773406290981&hl=en&as_sdt=0,5" target="_blank" class="button">Spin flop paper</a></li>
+                    <li><a href="assets/pdf/spin_flop.pdf/" class="button">Master's Thesis</a></li>
+                    <li><a href="https://scholar.google.com/scholar?cluster=17203867773406290981&hl=en&as_sdt=0,5" target="_blank" class="button">XMLD Ppaper</a></li>
+                    <li><a href="https://scholar.google.com/scholar?cluster=17203867773406290981&hl=en&as_sdt=0,5" target="_blank" class="button">Neutron diffraction paper</a></li>
                     <li><a href="/research/spin_flop/" class="button">Learn more</a></li>
                 </ul>
-                <p>The other two approaches are both sensitive to changes throughout the thickness of the layer. One 
-                involved high power, ultrafast physics and the other involved mangetic neutron scattering. Click the 
-                links below to find out more </p>
-				<ul class="actions">
-                    <li><a href="/research/lasers/" class="button">Lasers</a></li>
-                    <li><a href="/research/neutrons" class="button">Neutrons</a></li>
-				</ul>
+			</div>
+		</div>
+	</section>
+	<section>
+		<span class="image">
+			<img src="{% link assets/img/research/optics/research2.jpg %}" alt="" data-position="center center" />
+            <p class="align-center"> </p>
+		</span>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Spin Flop</h3>
+				</header>
+				<p> During my PhD, Magnetooptics were performed.</p>
+                <ul class="actions">
+                    <li><a href="assets/pdf/Thesis.pdf/" class="button">PhD Thesis</a></li>
+                </ul>
 			</div>
 		</div>
 	</section>
