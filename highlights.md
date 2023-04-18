@@ -14,12 +14,20 @@ permalink: /highlights/
 
 <!-- One -->
 <section id="one" class="spotlights">
-	<div class="inner">
-		<header class="major">
+<section>
+        <div class="content">
+            <div class="inner">
+        <header class="major">
 			<h2>About Me</h2>
 		</header>
 		<p> I am a highly practical and well-rounded physicist, having studied antiferromagnetic spintronics and magnetooptics for my PhD (viva pending) at the University of Nottingham. During the PhD, I discovered that designing new equipment, setting up new experiments and doing these experiments is the most enjoyable part for me. Therefore, I am aiming to adopt a role as a technician or to work in equipment/instrument design with the aim of contributing to science in ways I am most suited to. I have undertaken many personal projects involving mechanical design, electronics and programming in various languages, and I am always willing to jump in the deep end to learn new practical skills. With access to my dad's workshop and some tools of my own, I undertake woodworking projects as a hobby and have worked as an assistant to a builder/joiner and renovated houses and built extensions, developing a very board suite of skills and varied understanding of how things work, which have been demonstrated as remarkable applicable to the laboratory environment. This page provides a summary of my PhD research, followed by examples of four projects, each primarily showcasing: equipment design skills, woodwork, electronics knowledge and programming skills, followed by a bit more about me.</p>
-	</div>
+            </div>
+        </div>
+        <span class="image">
+            <img src="{% link /assets/img/tiles/me_top.png %}" alt="" data-position="center center" />
+            <p class="align-center"></p>
+        </span>
+    </section>
 </section>
 
 <!-- Two -->
@@ -41,10 +49,10 @@ permalink: /highlights/
                 Spin flop is a sudden reorientation of antiferromagnetic moments which occurs above some threshold field when an external magentic field is applied along the easy axis of the sample. This reproducible and predictable method of reorientation of magnetic moments is ideal for demonstrating the magnetic origin of phenomena which may be applicable to new AFM characterisation techniques. Before studying spin flop using neutron diffraction, the full volume extents of spin flop were not known. By using magnetic neutron diffraction to detect the change in amplitudes of diffraction peaks, the full thickness extent of spin flop was detected as 98 % at 8 T, increasing confidence in the use of spin flop as a test of characterisation techniques.
                 </p>
                 <p>
-                The optical pump probe experiments were performed with the aim of demonstrating asyncrhonous optical sampling (ASOPS) as a convenient and rapid way of characterising the anisotropy of an AFM sample by using a heating pump pulse to induce demagnetisation in the material which is detected as a reduction in the polarisation angle change induced resulting from the Voigt effect. This same measurement process was also performed in collaboration with TU Dortmund, Germany, using aa delay line pump probe technique which detected spin flop as a change in the magnitude of this demagnetisation related Voigt effect polarisation angle change to unambiguously demonstrate that the signals are of magnetic origin.
+                The optical pump probe experiments were performed with the aim of demonstrating asyncrhonous optical sampling (ASOPS) as a convenient and rapid way of characterising the anisotropy of an AFM sample by using a heating pump pulse to induce demagnetisation in the material which is detected as a reduction in the polarisation angle change induced resulting from the Voigt effect. This same measurement process was also performed in collaboration with TU Dortmund, Germany, using a delay line pump probe technique which detected spin flop as a change in the magnitude of this demagnetisation related Voigt effect polarisation angle change to unambiguously demonstrate that the signals are of magnetic origin.
                 </p>
                 <p>
-                The electrical switching possibilities of CuMnAs have been demonstrated previously (todo cite switching paper) and since then, there has been an upsurge in interest in CuMnAs and its possible applications. To this end, many studies have investigated the origins and possible alternative mechanisms for both switching and readout. Typically anisotropic magnetoresistance (AMR) is used as the readout signal to detect magnetic changes induced by current pulses but these signals are small. I performed various switching experiments and also used short-duration high-power pulses with simultaneous measurement to detect larger signal changes with the aim of detecting the steady state anisotropy of a sample without the need for magnetic fields to induce some changes. These studied led to the discovery of a new mechanism capable of generting much larger resistance change signals than expected. 
+                The electrical switching possibilities of CuMnAs were first demonstrated in 2015, and since then, there has been an upsurge in interest in CuMnAs and its possible applications. To this end, many studies have investigated the origins and possible alternative mechanisms for both switching and readout. Typically anisotropic magnetoresistance (AMR) is used as the readout signal to detect magnetic changes induced by current pulses but these signals are small. I performed various switching experiments and also used short-duration high-power pulses with simultaneous measurement to detect larger signal changes with the aim of detecting the steady state anisotropy of a sample without the need for magnetic fields to induce some changes. These studied led to the discovery of a new mechanism capable of generating much larger resistance change signals than expected. 
                 </p>
                 <p>
                 Below are links to a paper summarising the neutron diffraction studies, a review article summarising AFM spintronics and the first paper demonstrating electrical switching and readout using CuMnAs.
@@ -52,7 +60,7 @@ permalink: /highlights/
                 <ul class="actions">
                     <li><a href="https://aip.scitation.org/doi/10.1063/5.0103390" target="_blank" class="button"><span class="fas fa-link"></span>Neutron Diffraction paper</a></li> 
                     <li><a href="https://www.nature.com/articles/nnano.2016.18" target="_blank" class="button"><span class="fas fa-link"></span>AFM Spintronics Review</a></li> 
-                    <li><a href="https://www.nature.com/articles/ncomms15434" target="_blank" class="button"><span class="fas fa-link"></span>Switching Paper</a></li>
+                    <li><a href="https://www.nature.com/articles/ncomms15434" target="_blank" class="button"><span class="fas fa-link"></span>First Switching Paper</a></li>
                     <li><a href="/research/" class="button next">More Research</a></li>
                 </ul>
             </div>

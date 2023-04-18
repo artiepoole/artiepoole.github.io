@@ -1,9 +1,9 @@
 ---
 title: About Me
 layout: landing
-description: My name is Stuart Poole. I am a highly practical and well-rounded physicist, having studied antiferromagnetic spintronics and magnetooptics for my PhD (viva pending) at the University of Nottingham. During the PhD, I discovered that working with equipment, setting up new experiments and doing these experiments is far more enjoyable than the more academic aspects of research. Therefore, I am aiming to adopt a role as a technician or to work in equipment/instrument design with the aim of contributing to science in ways I am more suited to. I have undertaken many personal projects involving mechanical design, electronics and code in various programming languages, and I am always willing to jump in the deep end to learn new practical skills. With access to my dad's workshop and some tools of my own, I undertake woodworking projects as a hobby and have worked as an assistant to a builder/joiner and renovated houses and built extensions, developing a very board suite of skills and varied understanding of how things work, which have been demonstrated as remarkable applicable to the laboratory environment.
-image: /assets/img/tiles/projects.png
-show_tile: False
+description: My name is Stuart (Stu or Artie) Poole, and I am a highly practical and well-rounded physicist, having studied antiferromagnetic spintronics and magnetooptics for my PhD (viva pending) at the University of Nottingham. During the PhD, I discovered that designing new equipment, setting up new experiments and doing these experiments is the most enjoyable part for me. Therefore, I am aiming to adopt a role as a technician or to work in equipment/instrument design with the aim of contributing to science in ways I am most suited to. I have undertaken many personal projects involving mechanical design, electronics and programming in various languages, and I am always willing to jump in the deep end to learn new practical skills. With access to my dad's workshop and some tools of my own, I undertake woodworking projects as a hobby and have worked as an assistant to a builder/joiner and renovated houses and built extensions, developing a very board suite of skills and varied understanding of how things work, which have been demonstrated as remarkable applicable to the laboratory environment. 
+image: /assets/img/tiles/MeClimbing.JPG
+show_tile: True
 nav-menu: True
 permalink: /about/
 ---
@@ -28,7 +28,7 @@ permalink: /about/
                 personal) woodworking project was the headphone and controller rack pictured beside, but I had made 
                 several small things before this. </p>
 				<ul class="actions">
-					<li><a href="/projects/peripheral_rack/" class="button">Learn more</a></li>
+					<li><a href="/projects/peripheral_rack/" class="button">About the Rack</a></li>
 					<li><a href="/projects/" class="button">See more projects</a></li>
 				</ul>
 			</div>
@@ -49,8 +49,7 @@ permalink: /about/
 				 taking pictures of it. It required solving an unwieldy elasticity equation from first principles, 
 				 developing an image analysis algorithm and delicate practical skills.</p>
 				<ul class="actions">
-					<li><a href="/research/thin_film/" class="button">Learn more</a></li>
-					<li><a href="assets/pdfs/Thin Film Wrinkling.pdf" target="_blank" class="button">Read my report</a></li>
+					<li><a href="assets/pdfs/Thin Film Wrinkling.pdf" target="_blank" class="button"><span class="fas fa-file-pdf"></span>Read my report</a></li>
 				</ul>
                 <p>The second was a summer internship in which Adidas sponsored us to try and measure the pressure 
                 distribution and contact forces on the sole of a shoe during exercise. They hoped this would help with 
@@ -59,9 +58,7 @@ permalink: /about/
                 the surface, the object introduces an interface with a different refractive index and causes light to 
                 be scattered through the waveguide to the awaiting camera. </p>
                 <ul class="actions">
-                    <li><a href="/research/contact_forces/" class="button">Learn more</a></li>
-                    <li><a href="https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.10.034051" target="_blank" class="button">Read the paper</a></li>
-                    <li><a href="/research/" class="button">See more research</a></li>
+                    <li><a href="https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.10.034051" target="_blank" class="button"><span class="fas fa-link"></span>Read the paper</a></li>
                 </ul>
 			</div>
 		</div>
@@ -117,7 +114,7 @@ permalink: /about/
 				switching characteristics</a> which may prove to be applicable in low power and higher frequency 
 				computing than is currently available. The current state of research is focussing on understanding magnetic domain structures and their corresponding physical origins, topologically protected magnetic features and new characeterisation techniques for determining magnetic ansitropy, imaging domain structures and detecting electrically induced changes.</p>
 				<ul class="actions">
-					<li><a href="https://scholar.google.com/citations?user=ae7B7ukAAAAJ&hl=en&oi=ao" class="button" target="_blank">More about AFMs</a></li>
+					<li><a href="https://scholar.google.com/citations?user=ae7B7ukAAAAJ&hl=en&oi=ao" class="button" target="_blank"><span class="fas fa-link"></span>More about AFMs</a></li>
 				</ul>   
 			</div>
 		</div>
@@ -134,10 +131,9 @@ permalink: /about/
 				</header>
 				<p> My Master's thesis and a significant part of my PhD work were focussed on observing, understanding and using the phenomenon of spin flop in CuMnAs, hoping to find the values of the exchange and anisotropy fields for use in theoretical simulations of the dynamics and to use spin flop as a useful test of new characterisation techniques. My first measurements of spin flop formed the basis of my Master's thesis, using anisotropic magnetoresistance transport measurements to detect the reoirentation of the moments. This technique only measures relative changes and does not tell us much about the behaviour of moments as a whole. The technique conducted by the group involved measuring the difference in absorption of X-rays at two different polarisations and at two different energies in what's called <a target="_blank" href="https://www.diamond.ac.uk/Instruments/Techniques/Spectroscopy/XMLD.html">XLMD-PEEM</a>. This particular set up was only surface sensitive and posed the question "does spin flop occur throughout the material or just at the surface?". This was answered by detecting spin flop in the bulk of the film using magnetic neutron diffraction. These works are detailed in the master's thesis and two peer reviewed articles below.</p>
                 <ul class="actions">
-                    <li><a href="assets/pdf/spin_flop.pdf/" class="button">Master's Thesis</a></li>
-                    <li><a href="https://scholar.google.com/scholar?cluster=17203867773406290981&hl=en&as_sdt=0,5" target="_blank" class="button">XMLD Ppaper</a></li>
-                    <li><a href="https://scholar.google.com/scholar?cluster=17203867773406290981&hl=en&as_sdt=0,5" target="_blank" class="button">Neutron diffraction paper</a></li>
-                    <li><a href="/research/spin_flop/" class="button">Learn more</a></li>
+                    <li><a href="assets/pdf/spin_flop.pdf/" class="button"><span class="fas fa-file-pdf"></span>Master's Thesis</a></li>
+                    <li><a href="https://scholar.google.com/scholar?cluster=17203867773406290981&hl=en&as_sdt=0,5" target="_blank" class="button"><span class="fas fa-link"></span>XMLD Ppaper</a></li>
+                    <li><a href="https://scholar.google.com/scholar?cluster=17203867773406290981&hl=en&as_sdt=0,5" target="_blank" class="button"><span class="fas fa-link"></span>Neutron diffraction paper</a></li>
                 </ul>
 			</div>
 		</div>
@@ -150,11 +146,30 @@ permalink: /about/
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Spin Flop</h3>
+					<h3>Magnetooptics</h3>
 				</header>
-				<p> During my PhD, Magnetooptics were performed.</p>
+				<p> I performed optical pump probe experiments with the aim of demonstrating asyncrhonous optical sampling (ASOPS) as a convenient and rapid way of characterising the anisotropy of an AFM sample by using a heating pump pulse to induce demagnetisation in the material which is detected as a reduction in the polarisation angle change induced resulting from the Voigt effect. This same measurement process was also performed in collaboration with TU Dortmund, Germany, using a delay line pump probe technique which detected spin flop as a change in the magnitude of this demagnetisation related Voigt effect polarisation angle change to unambiguously demonstrate that the signals are of magnetic origin.</p>
                 <ul class="actions">
-                    <li><a href="assets/pdf/Thesis.pdf/" class="button">PhD Thesis</a></li>
+                    <li><a href="assets/pdf/Thesis.pdf/" class="button"><span class="fas fa-file-pdf"></span>PhD Thesis</a></li>
+                    <li><a href="https://arxiv.org/ftp/arxiv/papers/1608/1608.01941.pdf" target="_blank" class="button"><span class="fas fa-link"></span>Voigt effect in CuMnAs</a></li>
+                </ul>
+			</div>
+		</div>
+	</section>
+	<section>
+		<span class="image">
+			<img src="{% link assets/img/research/transport/transport.jpg %}" alt="" data-position="center center" />
+            <p class="align-center"> </p>
+		</span>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Transport measurements</h3>
+				</header>
+				<p> The electrical switching possibilities of CuMnAs were first demonstrated in 2015, and since then, there has been an upsurge in interest in CuMnAs and its possible applications. To this end, many studies have investigated the origins and possible alternative mechanisms for both switching and readout. Typically anisotropic magnetoresistance (AMR) is used as the readout signal to detect magnetic changes induced by current pulses but these signals are small. I performed various switching experiments and also used short-duration high-power pulses with simultaneous measurement to detect larger signal changes with the aim of detecting the steady state anisotropy of a sample without the need for magnetic fields to induce some changes. These studied led to the discovery of a new mechanism capable of generating much larger resistance change signals than expected.</p>
+                <ul class="actions">
+                    <li><a href="assets/pdf/Thesis.pdf/" class="button"><span class="fas fa-file-pdf"></span>PhD Thesis</a></li>
+                    <li><a href="assets/pdf/Thesis.pdf/" class="button"><span class="fas fa-link"></span>First switching paper</a></li>
                 </ul>
 			</div>
 		</div>
