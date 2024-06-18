@@ -37,6 +37,8 @@ permalink: /highlights/
         <span class="image">
             <img src="{% link /assets/img/tiles/research2.jpg %}" alt="" data-position="center center" />
             <p class="align-center">Example magneto-optical detection scheme</p>
+            <img src="{% link /assets/img/research/kits_photos/cryostat_bore.jpg %}" alt="" data-position="center center" />
+            <p class="align-center">A view down the bore of a cryostat</p>
         </span>
         <div class="content">
             <div class="inner">
