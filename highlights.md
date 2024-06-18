@@ -20,7 +20,8 @@ permalink: /highlights/
         <header class="major">
 			<h2>About Me</h2>
 		</header>
-		<p> I am a highly practical and well-rounded physicist, having studied antiferromagnetic spintronics and magnetooptics for my PhD at the University of Nottingham. During the PhD, I discovered that designing new equipment, setting up new experiments and doing these experiments is the most enjoyable part for me. Therefore, I am aiming to adopt a role as an engineer designing equipment/instruments with the aim of contributing to science in ways I am most suited to. I have undertaken many personal projects involving mechanical design, electronics and programming in various languages, and I am always willing to jump in the deep end to learn new practical skills. With access to my dad's workshop and some tools of my own, I undertake woodworking projects as a hobby and have worked as an assistant to a builder/joiner and renovated houses and built extensions, developing a very board suite of skills and varied understanding of how things work, which have been demonstrated as remarkable applicable to the laboratory environment. This page provides a summary of my PhD research, followed by examples of four projects, each primarily showcasing: equipment design skills, woodwork, electronics knowledge and programming skills, followed by a bit more about me.</p>
+		<p> I have a PhD in experimentla physics, specifically in antiferromagnetic spintronics and magnetooptics. Through the PhD, I became an expert in interfacing with equipment using Python and in experimental design. Since then, I have discovered a passion for the interplay between hardware and software and am therefore now striving to immerse myself in just that.</p>
+        <p>I have undertaken many personal projects involving mechanical design, electronics and programming in various languages, and I am always jumping into the deep end to learn new skills. With access to my dad's workshop and some tools of my own, I undertake woodworking projects as a hobby and have worked as an assistant to a builder/joiner and renovated houses and built extensions, developing a very board suite of skills and varied understanding of how things work, which have been demonstrated as remarkable applicable to the research and development environment. This page provides a summary of my PhD research, followed by examples of four projects, each primarily showcasing: programming skills, equipment design skills, electronics knowledge and woodworking skills, followed by a bit more about me.</p>
             </div>
         </div>
         <span class="image">
@@ -35,33 +36,53 @@ permalink: /highlights/
     <section>
         <span class="image">
             <img src="{% link /assets/img/tiles/research2.jpg %}" alt="" data-position="center center" />
-            <p class="align-center">Example Magneto-optical detection scheme</p>
+            <p class="align-center">Example magneto-optical detection scheme</p>
         </span>
         <div class="content">
             <div class="inner">
                 <header class="major">
                     <h3>Research - New Characterisation Techniques for Thin Film Antiferromagnetic Materials </h3>
                 </header>
-                <p> 
-                During my PhD in experimental spintronics and magnetooptics at the University of Nottingham, I have experience with many experimental techniques for magnetic characterisation such as transport measurements and magnetooptical measurements. My research focussed on studying CuMnAs as an example of an antiferromagnet (AFM) with promise in spintronic applications with it's relatively low resistance and ability to be switched electrically. My studies can be categorised into three main types of experiment: optical pump probe measurements, magnetoresistive electrical measurements and transport measurements (it would also be possible to break down my research into three major aims: to understand spin flop; to improve switching and electrical readout signals; and to understand the domain structure and domain formation in CuMnAs). Other smaller experiments were also conducted and I also spent a lot of my time assisting other researchers with their experiments while I was waiting for parts or equipment availability.
-                </p>
                 <p>
-                Spin flop is a sudden reorientation of antiferromagnetic moments which occurs above some threshold field when an external magentic field is applied along the easy axis of the sample. This reproducible and predictable method of reorientation of magnetic moments is ideal for demonstrating the magnetic origin of phenomena which may be applicable to new AFM characterisation techniques. Before studying spin flop using neutron diffraction, the full volume extents of spin flop were not known. By using magnetic neutron diffraction to detect the change in amplitudes of diffraction peaks, the full thickness extent of spin flop was detected as 98 % at 8 T, increasing confidence in the use of spin flop as a test of characterisation techniques.
+                My PhD research (thesis linked below) consisted of developing new measurement techniques for measuring antiferromagnetism (a form of magnetism in which there is no net magnetisation, although the materials possesses local and long range magnetic ordering) in CuMnAs samples. In theory, antiferromagnetic materials are ideal materials for use in storage devices because they are impervious to external magnetic fields, have very fast switching dynamics and maximum storage density, overcoming limitations in existing magnetic storage devices. Writing of information has been experimentally shown (paper linked below) however these results highlight the main drawback: the readout signals are much weaker (0.1% resistance change compared to 150% recorded in ferromagnet HDDs). My research hoped to find new ways to measure these changes and explore the new ways to measure the magnetic properties of antiferromagnets in order to expedite material development.  
                 </p>
-                <p>
-                The optical pump probe experiments were performed with the aim of demonstrating asyncrhonous optical sampling (ASOPS) as a convenient and rapid way of characterising the anisotropy of an AFM sample by using a heating pump pulse to induce demagnetisation in the material which is detected as a reduction in the polarisation angle change induced resulting from the Voigt effect. This same measurement process was also performed in collaboration with TU Dortmund, Germany, using a delay line pump probe technique which detected spin flop as a change in the magnitude of this demagnetisation related Voigt effect polarisation angle change to unambiguously demonstrate that the signals are of magnetic origin.
+                <p>The aforementioned research goals meant that I was exposed to a wide array of experimental techniques (optical, large facility, electronic, cryogenic, vacuum etc.), collaborated internationally (TU Dortmund, several institutes in Prague and with Ioffe Institute back in 2018) and have gained vast experience in interfacing with hardware. For this, I primarily used Python (more about this below), but have also included Arduino devices as intermediate hardware and have programmed a Red Pitaya for a spectroscopic applications. I left the research group just as they discovered a new class of magnetism called altermagnetism. This new material promises even more ideal properties for the next generation of storage devices. I have continued to work with the group to improve experiments and accelerate their research into this new field.
                 </p>
-                <p>
-                The electrical switching possibilities of CuMnAs were first demonstrated in 2015, and since then, there has been an upsurge in interest in CuMnAs and its possible applications. To this end, many studies have investigated the origins and possible alternative mechanisms for both switching and readout. Typically anisotropic magnetoresistance (AMR) is used as the readout signal to detect magnetic changes induced by current pulses but these signals are small. I performed various switching experiments and also used short-duration high-power pulses with simultaneous measurement to detect larger signal changes with the aim of detecting the steady state anisotropy of a sample without the need for magnetic fields to induce some changes. These studied led to the discovery of a new mechanism capable of generating much larger resistance change signals than expected. 
-                </p>
-                <p>
-                Below are links to a paper summarising the neutron diffraction studies, a review article summarising AFM spintronics and the first paper demonstrating electrical switching and readout using CuMnAs.
-                </p>
+                <p> Below, I have included a few other links for the keen reader, focussing on CuMnAs, the material I studied.</p>
                 <ul class="actions">
-                    <li><a href="https://aip.scitation.org/doi/10.1063/5.0103390" target="_blank" class="button"><span class="fas fa-link"></span>Neutron Diffraction paper</a></li> 
-                    <li><a href="https://www.nature.com/articles/nnano.2016.18" target="_blank" class="button"><span class="fas fa-link"></span>AFM Spintronics Review</a></li> 
+                    <li><a href="/assets/pdfs/Thesis.pdf" target="_blank" class="button"><span class="fas fa-file-pdf"></span>PhD Thesis</a></li> 
                     <li><a href="https://www.nature.com/articles/ncomms15434" target="_blank" class="button"><span class="fas fa-link"></span>First Switching Paper</a></li>
+                    <li><a href="https://aip.scitation.org/doi/10.1063/5.0103390" target="_blank" class="button"><span class="fas fa-link"></span>Neutron Diffraction paper</a></li> 
+                    <li><a href="https://www.nature.com/articles/nnano.2016.18" target="_blank" class="button"><span class="fas fa-link"></span>AFM Spintronics Review</a></li>
                     <li><a href="/research/" class="button next">More Research</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section>
+        <span class="image">
+            <img src="{% link /assets/img/research/guis/rhs.png%}" alt="" data-position="center center" />
+            <p class="align-center">The ArtieLabUI window</p>
+            <img src="{% link /assets/img/research/guis/switching.png%}" alt="" data-position="center center" />
+            <p class="align-center">An electrical switching GUI</p>
+            <img src="{% link /assets/img/research/guis/ASOPS.png%}" alt="" data-position="center center" />
+            <p class="align-center">A GUI for spectroscopy measurements using ASOPS</p>
+        </span>
+        <div class="content" id="programming">
+            <div class="inner">
+                <header class="major">
+                    <h3>Programming</h3>
+                </header>
+               <p>I write code as a hobby and like to explore new languages when doing so, but as it stands, I am most skilled in Python. I recently started using C/C++ to improve the performance of existing Python code, especially in image processing, having some experience using standalone C++ to simulate magnetic systems. This is because, throughout my PhD, I wrote Python code to control instruments, process data and for image processing applications. Because of this aptitude, while working as technical specialist in the teaching labs, I was approached by my research group, asking if I would be able to re-write the existing proprietary LabView software which was shipped with their latest system: a magneto-optical Kerr effect (MOKE) microscope set-up. They employed me alongside my technical specialist role and I have developed <a href="https://github.com/stupoole/SpintronicsMOKE">ArtieLabUI</a> an open-source replacement which is faster, editable by the group. It was developed specifically for their application and with their input throughout. At over 5000 lines of Python (and 100 of C++), this is my largest project yet. This required real-time image processing, multithreading, C++ interfacing in Python, UI design and a lot of reverse engineering.</p>
+                <p> Also for work, I wrote a Python package which contains wrappers for interfacing with the instruments I used regularly. This, and some examples, are included below as well. Because of my expertise in this, I was asked to write a guide for using Python to interface with the equipment in the project teaching labs (3rd and 4th year undergraduate labs). Finally, some LEEM analysis scripts by <a href="https://github.com/TAdeJong/">TAdeJong</a> were heavily modified to use them for PEEM analysis instead. </p>
+                <p>As a hobby a while ago, my brother and I started writing a game engine in Kotlin, called Balding Gate. Although functional as a world editor and playable scenarios, we shelved development when we heard tell of Baldur's Gate 3. Aside from this, I have won two Hackathons for remote controlled robots, won a pebble smartwatch for developing an app for it and have attended other hackathons and game jams.</p>
+                <p> Other snippets of code and other projects have been lost or are not publically available for various reasons. These include my time evolving 3D magnetic simulation, simple Arduino scripts and the Red Pitaya code. </p>
+                <ul class="actions">
+                    <li><a href="https://github.com/stupoole/SpitnronicsMOKE" class="button next"> MOKE GUI </a></li>
+                    <li><a href="https://github.com/stupoole/instruments" class="button"><icon class="fab fa-github"></icon> Instrument Package </a></li>
+                    <li><a href="https://github.com/stupoole/instrumentsexamples" class="button"><icon class="fab fa-github"></icon> Instruments Examples </a></li>
+                    <li><a href="/code/balding gate/" class="button next">More on Balding Gate</a></li>
+                    <li><a href="/code/" class="button">More programming projects</a></li>
                 </ul>
             </div>
         </div>
@@ -77,7 +98,7 @@ permalink: /highlights/
 					<h3>Equipment Design</h3>
 				</header>
 				<p>I have drawn many individual parts in CAD, and made several larger assemblies. Several of the smaller parts have been 3D printed, such as a replacement handle for a Black and Decker workmate workbench and a controller for an Atari 8-bit computer from the '80s. In many of my projects you can see evidence of CAD and progression in skills using it. Recently I have focussed on learning best practices and trying to form good habits. For the following project, I drew a CAD model in the final size and had it manufactured by the in-house workshop at UoN and LewVac.</p>
-				<p> As an example of my design skills, I present my room temperature system: I was tasked with designing a high vacuum system with stable temperature control for measuring eletrical devices at and near to room temperature for the Spintronics group. The stability is required to eliminate drift in resistance measurements and to cool the sample when under load. There were three main points in the brief:
+				<p> As an example of my design skills, I present my room temperature system: I was tasked with designing a high vacuum system with stable temperature control for measuring electrical devices at and near to room temperature for the Spintronics group. The stability is required to eliminate drift in resistance measurements and to cool the sample when under load. There were three main points in the brief:
 				<ul>
 				<li>The temperature of the sample space has to remain within 0.1°C of the set point which can be anywhere between 0°C and 50°C.</li>
 				<li>The sample, mounted to a 12 pin circular header, must be in high vacuum (10<sup>-5</sup> mBar) and have good thermal contact with the sample space with minimal thermal lag to the temperature control mechanism.</li>
@@ -92,6 +113,7 @@ permalink: /highlights/
                 I designed the vacuum chamber, heatsink and control box and then wrote a custom python interface for the control box to hide a lot of the dangerous settings available in the proprietary software for the temperature controller supplier. A Peltier device was chosen as the temperature control mechanism because it can be used to both heat and cool the sample space. Click the link below to find out why this made the design so challenging and to learn more about the system's applications. A scientific paper describing the key features and operating parameters is in preparation.
                 </p>
 				<ul class="actions">
+                    <li><a href="https://arxiv.org/abs/2403.03745" class="button" target="_blank"><icon class="fab fa-file-pdf"></icon> Published Journal Article</a></li>
 					<li><a href="/projects/#Room_Temperature_System" target="_blank" class="button next">More on the RTS</a></li>
 					<li><a href="/projects/" class="button" target="_blank">See more projects</a></li>
 				</ul>
@@ -138,27 +160,6 @@ permalink: /highlights/
     </section>
     <section>
         <span class="image">
-            <img src="{% link /assets/img/tiles/balding gate.png %}" alt="" data-position="center center" />
-            <p class="align-center">Balding Gate level editor</p>
-        </span>
-        <div class="content" id="programming">
-            <div class="inner">
-                <header class="major">
-                    <h3>Programming</h3>
-                </header>
-                <p>I've been writing code as a hobby since my first week at university, mostly for scientific purposes but also at <a href="https://en.wikipedia.org/wiki/Hackathon">hackathons</a> (24 hour programming/hardware competitions) and for fun. My teams and I are very proud to say that we won prizes at most of the hackathons we attended and typically stood out as the only hardware projects on display. Our projects include an Amazon Alexa controlled robot Budweiser box and a dice rolling app for the (now discontinued) Pebble Classic smartwatch. During my PhD, I created an <a href="https://github.com/stupoole/Instruments">instrument control package</a> containing classes for each instrument used regularly and methods to control them in typical applications. The classes also provide a way to control the instruments in unique ways. For this package, I also wrote scripts which utilise the package as <a href="https://github.com/stupoole/instrumentsexamples">examples</a> and to be used/modified for standard experiments. I also adapted code into a script capable of automatically correcting for drift in XMLD-PEEM imaging experiments.</p>
-                <p>My most significant programming projects are this website and the instruments package written for my research group which is an interface for controlling the equipment used by the group. One other programming endeavour, however, is a game system called Balding Gate (working title, a play on Baldur's Gate) which I am working on with my brother. Neither of us are artists to please excuse the "gamer art" aesthetic.</p>
-                <p>Balding Gate is a tool which hopes to simplify the combat of Dungeons and Dragons and similar tabletop role playing games by combining map drawing features, character editors and the ability to play out the combat as a co-op multiplayer video game. This tool aims to assist players and dungeon masters alike by reducing the amount of time spent explaining the combat situation, instead simply playing it out as a video game, allowing for the players to get back to the fun parts.</p>
-                <ul class="actions">
-                    <li><a href="/code/balding gate/" class="button next">More on Balding Gate</a></li>
-                    <li><a href="https://github.com/stupoole" class="button"><icon class="fab fa-github"></icon> View on GitHub</a></li>
-                    <li><a href="/code/" class="button">More programming projects</a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <section>
-        <span class="image">
             <img src="{% link /assets/img/tiles/me.png %}" alt="" data-position="center center" />
             <p class="align-center"></p>
         </span>
@@ -167,7 +168,7 @@ permalink: /highlights/
                 <header class="major">
                     <h3>What makes me tick</h3>
                 </header>
-                 <p>I hope you found my projects interesting and have learned something from them! If you're wondering what kind of person I am, and how I find time for these alongside my studies and life, you'll be glad to hear that I have a healthy work-life balance, with a less healthy interest in specialty coffee, finding time to cook and eat world foods, play board games and video games, socialise with friends, listen to a lot (and I mean a lot) of different music, read books (sci-fi and fantasy novels lately), and go on adventures: hiking in the woods, hiking up mountains, climbing up rock faces and exploring new cities. When not being active, I spend my time watching educational YouTube, often in niche subjects e.g. organic chemistry syntheses, machining and botany, but also in more typical subjects. </p>
+                 <p>I hope you found my projects interesting and have learned something from them! If you're wondering what kind of person I am, and how I find time for these alongside my studies and life, you'll be glad to hear that I have a healthy work-life balance, with a less healthy interests in specialty coffee and rock climbing (indoors and out), finding time to cook and eat world foods, play board games and video games, socialise with friends, listen to a lot (and I mean a lot) of different music, read books (sci-fi and fantasy novels lately), and go on adventures: hiking in the woods, hiking up mountains, climbing up rock faces and exploring new cities. When not being active, I spend my time watching educational YouTube, often in niche subjects e.g. organic chemistry syntheses, machining and botany, but also in more typical subjects. </p>
             </div>
         </div>
     </section>
