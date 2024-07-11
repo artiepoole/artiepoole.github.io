@@ -8,7 +8,7 @@ permalink: "/projects/instruments/"
 ---
 
 <div>
-    <span class="image right"> 
+    <span class="image left"> 
         {% include image-gallery-first.html folder="assets/img/projects/instruments" %}
     </span>
     <p> In order to expedite experimental prototyping, I wrote a Python package which contains wrappers for interfacing with the instruments I used regularly. This includes lock-in amplifiers, various keithley instruments, oscilloscopes and some custom kit like the switch box, which I helped design and iterate on. Originally only intended for my use, it has since become instrumental in other research groups development of control software. Several GUIs have been developed for more routine experiments. The source code, and various examples of how to use it, are linked below.</p>
@@ -17,6 +17,6 @@ permalink: "/projects/instruments/"
 
 
 <ul class="actions">
-    <li><a href="https://github.com/stupoole/instruments" class="button next" target="_blank"><icon class="fab fa-github"></icon> Instrument Package </a></li>
-    <li><a href="https://github.com/stupoole/instrumentsexamples" class="button next" target="_blank"><icon class="fab fa-github"></icon> Instruments Examples </a></li>
+    <li><a href="https://github.com/stupoole/instruments" class="button next" target="_blank"><span class="fab fa-github"></span>  Instrument Package </a></li>
+    <li><a href="https://github.com/stupoole/instrumentsexamples" class="button next" target="_blank"><span class="fab fa-github"></span> Instruments Examples </a></li>
 </ul>

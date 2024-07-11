@@ -11,7 +11,7 @@ permalink: "/projects/Balding_Gate/"
 
 <span class="image left"> {% include image-gallery-first.html folder="assets/img/projects/baldinggate" %}</span>
 
-<p>
+<p>My brother and I started working on a game engine in Kotlin, as a way for us both to explore kotlin as a language and it's features. Although it has a working level editor and playable levels, development has been abandoned since the announcement of Baldur's Gate 3, a project with similar goals but with an infinitely larger budget.
 </p>
 </div>
 
