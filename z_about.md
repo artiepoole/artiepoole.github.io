@@ -1,7 +1,7 @@
 ---
 title: About Me
 layout: landing
-description: My name is Stuart (Stu or Arty) Poole, and I am a highly practical and well-rounded physicist, having studied antiferromagnetic spintronics and magnetooptics for my PhD (viva pending) at the University of Nottingham. During the PhD, I discovered that designing new equipment, setting up new experiments and doing these experiments is the most enjoyable part for me. Therefore, I am aiming to adopt a role as a technician or to work in equipment/instrument design with the aim of contributing to science in ways I am most suited to. I have undertaken many personal projects involving mechanical design, electronics and programming in various languages, and I am always willing to jump in the deep end to learn new practical skills. With access to my dad's workshop and some tools of my own, I undertake woodworking projects as a hobby and have worked as an assistant to a builder/joiner and renovated houses and built extensions, developing a very board suite of skills and varied understanding of how things work, which have been demonstrated as remarkable applicable to the laboratory environment. 
+description: WARNING - THIS PAGE IS OUT OF DATE. My name is Stuart/Artie/Stu(deprecated) Poole, and I am a highly practical and well-rounded physicist, having studied antiferromagnetic spintronics and magnetooptics for my PhD at the University of Nottingham.
 image: /assets/img/tiles/MeClimbing.JPG
 show_tile: True
 nav-menu: True
