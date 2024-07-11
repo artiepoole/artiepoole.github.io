@@ -21,7 +21,7 @@ permalink: /highlights/
                 <span class="image right">
                     <a href="{% link /assets/img/tiles/me_top.png %}"><img src="{% link /assets/img/tiles/me_top.png %}" alt="" data-position="center center" /></a>
                 </span>
-                <p> I have a PhD in experimentla physics, specifically in antiferromagnetic spintronics and magnetooptics. Through the PhD, I became an expert in interfacing with equipment using Python and in experimental design. Since then, I have discovered a passion for the interplay between hardware and software and am therefore now striving to immerse myself in just that.</p>
+                <p> I have a PhD in experimental physics, specifically in antiferromagnetic spintronics and magnetooptics. Through the PhD, I became an expert in interfacing with equipment using Python and in experimental design. Since then, I have discovered a passion for the interplay between hardware and software and am therefore now striving to immerse myself in just that.</p>
                 <p>I have undertaken many personal projects involving mechanical design, electronics and programming in various languages, and I am always jumping into the deep end to learn new skills. With access to my dad's workshop and some tools of my own, I undertake woodworking projects as a hobby and have worked as an assistant to a builder/joiner and renovated houses and built extensions, developing a very board suite of skills and varied understanding of how things work, which have been demonstrated as remarkable applicable to the research and development environment. This page provides a summary of my PhD research, followed by examples of four projects, each primarily showcasing: programming skills, equipment design skills, electronics knowledge and woodworking skills, followed by a bit more about me.</p>
             </div>
         </div>
@@ -36,9 +36,9 @@ permalink: /highlights/
             </header>
             <div>
                 <span class="image left">
-                    <img src="{% link /assets/img/tiles/research2.jpg %}" alt="" data-position="center center" />
+                    <a href="{% link /assets/img/tiles/research2.jpg %}"><img src="{% link /assets/img/tiles/research2.jpg %}" alt="" data-position="center center" /></a>
                     <p class="align-center">Example magneto-optical detection scheme</p>
-                    <img src="{% link /assets/img/research/kits_photos/cryostat_bore.jpg %}" alt="" data-position="center center" />
+                    <a href="{% link /assets/img/research/kits_photos/cryostat_bore.jpg %}"><img src="{% link /assets/img/research/kits_photos/cryostat_bore.jpg %}" alt="" data-position="center center" /></a>
                     <p class="align-center">A view down the bore of a cryostat</p>
                 </span>
                 <p>
@@ -67,17 +67,16 @@ permalink: /highlights/
             </header>
             <div>
                 <span class="image right">
-                    <img src="{% link /assets/img/research/guis/rhs.png%}" alt="" data-position="center center" />
+                    <a href="{% link /assets/img/research/guis/rhs.png %}"><img src="{% link /assets/img/research/guis/rhs.png %}" alt="" data-position="center center" /> </a>
                     <p class="align-center">The ArtieLabUI window</p>
-                    <img src="{% link /assets/img/research/guis/switching.png%}" alt="" data-position="center center" />
+                    <a href="{% link /assets/img/research/guis/switching.png %}"><img src="{% link /assets/img/research/guis/switching.png%}" alt="" data-position="center center" /></a>
                     <p class="align-center">An electrical switching GUI</p>
-                    <img src="{% link /assets/img/research/guis/ASOPS.png%}" alt="" data-position="center center" />
+                    <a href="{% link /assets/img/research/guis/ASOPS.png %}"><img src="{% link /assets/img/research/guis/ASOPS.png%}" alt="" data-position="center center" /></a>
                     <p class="align-center">A GUI for spectroscopy measurements using ASOPS</p>
                 </span>
-                <p>I write code as a hobby and like to explore new languages when doing so, but as it stands, I am most skilled in Python. I recently started using C/C++ to improve the performance of existing Python code, especially in image processing, having some experience using standalone C++ to simulate magnetic systems. This is because, throughout my PhD, I wrote Python code to control instruments, process data and for image processing applications. Because of this aptitude, while working as technical specialist in the teaching labs, I was approached by my research group, asking if I would be able to re-write the existing proprietary LabView software which was shipped with their latest system: a magneto-optical Kerr effect (MOKE) microscope set-up. They employed me alongside my technical specialist role and I have developed <a href="https://github.com/stupoole/SpintronicsMOKE">ArtieLabUI</a> an open-source replacement which is faster, editable by the group. It was developed specifically for their application and with their input throughout. At over 5000 lines of Python (and 100 of C++), this is my largest project yet. This required real-time image processing, multithreading, C++ interfacing in Python, UI design and a lot of reverse engineering.</p>
+                <p>Throughout my PhD, I wrote Python code to control instruments, process data and for image processing applications. Because of this experience I was approached by my research group while working as technical specialist in the teaching labs. They tasked me with re-writing the existing proprietary LabView software which was shipped with their latest system: a magneto-optical Kerr effect (MOKE) microscope set-up. They employed me alongside my technical specialist role. The result is <a href="https://github.com/stupoole/SpintronicsMOKE">ArtieLabUI</a>, an open-source replacement which is faster, and modifiable by the group. It was developed specifically for their application and with their input throughout. At over 5000 lines of Python (and 100 of C++), this is my largest project yet. This required real-time image processing, multithreading, C++ interfacing in Python, UI design and a lot of reverse engineering.</p>
                 <p> Also for work, I wrote a Python package which contains wrappers for interfacing with the instruments I used regularly. This, and some examples, are included below as well. Because of my expertise in this, I was asked to write a guide for using Python to interface with the equipment in the project teaching labs (3rd and 4th year undergraduate labs). Finally, some LEEM analysis scripts by <a href="https://github.com/TAdeJong/">TAdeJong</a> were heavily modified to use them for PEEM analysis instead. </p>
-                <p>As a hobby a while ago, my brother and I started writing a game engine in Kotlin, called Balding Gate. Although functional as a world editor and playable scenarios, we shelved development when we heard tell of Baldur's Gate 3. Aside from this, I have won two Hackathons for remote controlled robots, won a pebble smartwatch for developing an app for it and have attended other hackathons and game jams.</p>
-                <p> Other snippets of code and other projects have been lost or are not publically available for various reasons. These include my time evolving 3D magnetic simulation, simple Arduino scripts and the Red Pitaya code. </p>
+                <p> Other snippets of research code and other projects have been lost or are not publicly available for various reasons. These include my time evolving 3D magnetic simulation, simple Arduino scripts and Red Pitaya code. </p>
             </div>
             <ul class="actions">
                 <li><a href="https://github.com/stupoole/SpitnronicsMOKE" class="button next" target="_blank"><icon class="fab fa-github"></icon> MOKE GUI </a></li>
@@ -100,8 +99,9 @@ permalink: /highlights/
                     <a href="{% link assets/img/projects/ArtOS/00 - sleep, animation and keyboard support.gif%}"><img src="{% link assets/img/projects/ArtOS/00 - sleep, animation and keyboard support.gif%}" alt="" data-position="center center" ></a>
                     <p class="align-center">ArtOS Test</p>
                 </span>
-                <p>I started writing an operating system (OS) by following the <a href="https://wiki.osdev.org" target="_blank">OSdev.org</a> <a href="https://wiki.osdev.org/Bare_Bones" target="_blank">barebones tutorial</a>. In order to progress beyond this "hello world" result, I have had to drastically imrpove my competence with C, C++ and CMake. I had to learn AT&T and Intel assembly syntax, teach myself about manual linking and have had to implement various bare metal CPU controls.</p>
-                <p> At the time of writing, the OS boots using a premade grub multiboot configuration and the kernel provides stdout, stderr and the ability to get and draw to a pixel frame buffer. using 32-bit colour (unused transparency). The primary goal of this project is to implement a public domain C library in order to run a <a href="https://github.com/ozkl/doomgeneric" target="_blank"> freeware version of DOOM</a>. There are many basic syscalls currently missing but they are being added one at a time.</p>
+                <p>I started writing an operating system (OS) by following the <a href="https://wiki.osdev.org" target="_blank">OSdev.org</a> <a href="https://wiki.osdev.org/Bare_Bones" target="_blank">bare bones tutorial</a>. In order to progress beyond this "hello world" result, I have had to drastically improve my competence with C, C++ and CMake. I had to learn AT&T and Intel assembly syntax, teach myself about manual linking and have had to implement various bare metal CPU controls.</p>
+                <p> At the time of writing, the OS boots using a pre-made grub multiboot configuration and the kernel provides stdout, stderr and the ability to get and draw to a pixel frame buffer. using 32-bit colour (unused transparency). The primary goal of this project is to implement a public domain C library in order to run a <a href="https://github.com/ozkl/doomgeneric" target="_blank"> freeware version of DOOM</a>. There are many basic syscalls currently missing but they are being added one at a time.</p>
+                <p>Other programming hobby projects include writing a game engine in Kotlin with my brother, called Balding Gate. Although functional as a world editor and playable scenarios, we shelved development when we heard tell of Baldur's Gate 3. Aside from this, I have won two Hackathons for remote controlled robots, won a pebble smartwatch for developing an app for it and have attended other hackathons and game jams.</p>
             </div>
             <ul class="actions">
                 <li><a href="https://github.com/stupoole/artos" class="button next" target="_blank"><icon class="fab fa-github"></icon> ArtOS</a></li>
