@@ -19,7 +19,7 @@ permalink: /highlights/
             </header>
             <div>
                 <span class="image right">
-                    <p><img src="{% link /assets/img/tiles/me_top.png %}" alt="" data-position="center center" /></p>
+                    <a href="{% link /assets/img/tiles/me_top.png %}"><img src="{% link /assets/img/tiles/me_top.png %}" alt="" data-position="center center" /></a>
                 </span>
                 <p> I have a PhD in experimentla physics, specifically in antiferromagnetic spintronics and magnetooptics. Through the PhD, I became an expert in interfacing with equipment using Python and in experimental design. Since then, I have discovered a passion for the interplay between hardware and software and am therefore now striving to immerse myself in just that.</p>
                 <p>I have undertaken many personal projects involving mechanical design, electronics and programming in various languages, and I am always jumping into the deep end to learn new skills. With access to my dad's workshop and some tools of my own, I undertake woodworking projects as a hobby and have worked as an assistant to a builder/joiner and renovated houses and built extensions, developing a very board suite of skills and varied understanding of how things work, which have been demonstrated as remarkable applicable to the research and development environment. This page provides a summary of my PhD research, followed by examples of four projects, each primarily showcasing: programming skills, equipment design skills, electronics knowledge and woodworking skills, followed by a bit more about me.</p>
@@ -49,10 +49,10 @@ permalink: /highlights/
                 <p> Below, I have included a few other links for the keen reader, focussing on CuMnAs, the material I studied.</p>
             </div>
             <ul class="actions">
-                <li><a href="/assets/pdfs/Thesis.pdf" target="_blank" class="button"><span class="fas fa-file-pdf"></span>PhD Thesis</a></li> 
-                <li><a href="https://www.nature.com/articles/ncomms15434" target="_blank" class="button"><span class="fas fa-link"></span>First Switching Paper</a></li>
-                <li><a href="https://aip.scitation.org/doi/10.1063/5.0103390" target="_blank" class="button"><span class="fas fa-link"></span>Neutron Diffraction paper</a></li> 
-                <li><a href="https://www.nature.com/articles/nnano.2016.18" target="_blank" class="button"><span class="fas fa-link"></span>AFM Spintronics Review</a></li>
+                <li><a href="/assets/pdfs/Thesis.pdf" target="_blank" class="button next"><span class="fas fa-file-pdf"></span>PhD Thesis</a></li> 
+                <li><a href="https://www.nature.com/articles/ncomms15434" target="_blank" class="button next"><span class="fas fa-link"></span>First Switching Paper</a></li>
+                <li><a href="https://aip.scitation.org/doi/10.1063/5.0103390" target="_blank" class="button next"><span class="fas fa-link"></span>Neutron Diffraction paper</a></li> 
+                <li><a href="https://www.nature.com/articles/nnano.2016.18" target="_blank" class="button next"><span class="fas fa-link"></span>AFM Spintronics Review</a></li>
                 <li><a href="/research/" class="button next">More Research</a></li>
             </ul>
         </div>
@@ -80,11 +80,10 @@ permalink: /highlights/
                 <p> Other snippets of code and other projects have been lost or are not publically available for various reasons. These include my time evolving 3D magnetic simulation, simple Arduino scripts and the Red Pitaya code. </p>
             </div>
             <ul class="actions">
-                <li><a href="https://github.com/stupoole/SpitnronicsMOKE" class="button next"> MOKE GUI </a></li>
-                <li><a href="https://github.com/stupoole/instruments" class="button"><icon class="fab fa-github"></icon> Instrument Package </a></li>
-                <li><a href="https://github.com/stupoole/instrumentsexamples" class="button"><icon class="fab fa-github"></icon> Instruments Examples </a></li>
-                <li><a href="/code/balding gate/" class="button next">More on Balding Gate</a></li>
-                <li><a href="/code/" class="button">More programming projects</a></li>
+                <li><a href="https://github.com/stupoole/SpitnronicsMOKE" class="button next" target="_blank"><icon class="fab fa-github"></icon> MOKE GUI </a></li>
+                <li><a href="https://github.com/stupoole/instruments" class="button next" target="_blank"><icon class="fab fa-github"></icon> Instrument Package </a></li>
+                <li><a href="https://github.com/stupoole/instrumentsexamples" class="button next" target="_blank"><icon class="fab fa-github"></icon> Instruments Examples </a></li>
+                <li><a href="/code/" class="button">More code</a></li>
             </ul>
         </div>
         </div>
@@ -98,15 +97,15 @@ permalink: /highlights/
             </header>
             <div>
                 <span class="image left">
-                    <img src="{% link assets/img/projects/ArtOS/keyboard_support.gif%}" alt="" data-position="center center" />
+                    <a href="{% link assets/img/projects/ArtOS/00 - sleep, animation and keyboard support.gif%}"><img src="{% link assets/img/projects/ArtOS/00 - sleep, animation and keyboard support.gif%}" alt="" data-position="center center" ></a>
                     <p class="align-center">ArtOS Test</p>
                 </span>
-                <p></p>
+                <p>I started writing an operating system (OS) by following the <a href="https://wiki.osdev.org" target="_blank">OSdev.org</a> <a href="https://wiki.osdev.org/Bare_Bones" target="_blank">barebones tutorial</a>. In order to progress beyond this "hello world" result, I have had to drastically imrpove my competence with C, C++ and CMake. I had to learn AT&T and Intel assembly syntax, teach myself about manual linking and have had to implement various bare metal CPU controls.</p>
+                <p> At the time of writing, the OS boots using a premade grub multiboot configuration and the kernel provides stdout, stderr and the ability to get and draw to a pixel frame buffer. using 32-bit colour (unused transparency). The primary goal of this project is to implement a public domain C library in order to run a <a href="https://github.com/ozkl/doomgeneric" target="_blank"> freeware version of DOOM</a>. There are many basic syscalls currently missing but they are being added one at a time.</p>
             </div>
             <ul class="actions">
-                <li><a href="https://github.com/stupoole/artos" class="button next"> ArtOS</a></li>
-                <li><a href="https://github.com/stupoole/stupoole.github.io" class="button next">This Website</a></li>
-                <li><a href="/code/" class="button">More programming projects</a></li>
+                <li><a href="https://github.com/stupoole/artos" class="button next" target="_blank"><icon class="fab fa-github"></icon> ArtOS</a></li>
+                <li><a href="/code/" class="button">More code</a></li>
             </ul>
         </div>
         </div>
@@ -141,8 +140,8 @@ permalink: /highlights/
             </div>
             <ul class="actions">
                 <li><a href="https://arxiv.org/abs/2403.03745" class="button" target="_blank"><icon class="fab fa-file-pdf"></icon> Published Journal Article</a></li>
-                <li><a href="/projects/#Room_Temperature_System" target="_blank" class="button next">More on the RTS</a></li>
-                <li><a href="/projects/" class="button" target="_blank">See more projects</a></li>
+                <li><a href="/projects/#Room_Temperature_System" class="button" >More on the RTS</a></li>
+                <li><a href="/projects/" class="button">Other projects</a></li>
             </ul>
         </div>
         </div>
@@ -156,15 +155,15 @@ permalink: /highlights/
             </header>
             <div>
                 <span class="image left">
-                    <img src="{% link /assets/img/tiles/crokinole.jpg %}" alt="" data-position="center center" />
+                    <a href="{% link /assets/img/tiles/crokinole.jpg %}"><img src="{% link /assets/img/tiles/crokinole.jpg %}" alt="" data-position="center center" /></a>
                     <p class="align-center">Crokinole Board, Discs and Bowl</p>
                 </span>
                 <p>I really like to make things (as if that wasn't already clear) and one of the easiest materials to get started with is wood because the materials are readily available, and it is possible to do a lot of things with few expensive tools (by using hand tools). It is for this reason that most of my projects are woodworking, not because it is my favourite. To get where I am now, I learned most of what I know from my dad but also worked as a joiner's labourer during many of my undergraduate holidays. Recently I have been working on earrings to hone my skills with hand tools. When I head home to visit my parents. Over a Christmas break, my dad and I made a <a href="/projects/#Crokinole_Board" target="_blank">crokinole board</a> (a tabletop game somewhere between curling/boules and pool with DNA from shuffleboard and air hockey) to play with family and friends. The following year we made a <a href="/projects/#Chess_Board" target="_blank">chess board</a>. It is always a joy to have access to his tools, knowledge and company.</p>
             </div>
             <ul class="actions">
-                <li><a href="/projects/#Crokinole_Board" target="_blank" class="button next">More on Crokinole</a></li>
-                <li><a href="/projects/#Chess_Board" target="_blank" class="button next">More on the Chess Board</a></li>
-                <li><a href="/projects/" target="_blank" class="button">See More Projects</a></li>
+                <li><a href="/projects/#Crokinole_Board" class="button">Crokinole</a></li>
+                <li><a href="/projects/#Chess_Board" class="button">Chess Board</a></li>
+                <li><a href="/projects/" class="button">Other Projects</a></li>
             </ul>
         </div>
         </div>
@@ -178,15 +177,15 @@ permalink: /highlights/
             </header>
             <div>
                 <span class="image right">
-                    <img src="{% link /assets/img/projects/2WireLEDDriver/01 - Finished, lid off.jpg %}" alt="" data-position="center center" />
+                    <a href="{% link /assets/img/projects/2WireLEDDriver/01 - Finished, lid off.jpg %}"><img src="{% link /assets/img/projects/2WireLEDDriver/01 - Finished, lid off.jpg %}" alt="" data-position="center center" /></a>
                     <p class="align-center">Assembled dimmable 2-wire LED driver.</p>
                 </span>
                 <p>I have undertaken many small electronics projects, such as replacing a power supply in an old BBC Master computer, making cables or analogue filters for laser experiments and the box for the temperature controller in the RT system. The two other largest projects are a cartridge emulator for Atari 8-bit series computers using, an Arduino Mega, with plans to replace it with a PIC after the proof of concept stage, and a display board demonstrating the function of an 8-bit adder for outreach purposes. I have also focused on hardware-software interfacing in programming for my research and in my contribution to hackathon entries (see <a class="scrolly" href="#programming">Programming</a> for more on hackathons) but I helped with all the circuitry in those projects (where applicable). My most impressive electronics project is the following LED driver.</p>
                 <p>Two-wire LED drivers work by oscillating the polarity of a driving DC current applied to a string of LEDs with sections of opposing polarity LEDs. This allows for easy assembly and control of the LEDs for animations etc. for Christmas lights. Typically, the controllers come programmed with several fun animations however they were all too bright and I just wanted adjustable soft lighting. I wanted to make a simple dimmable LED string driver for a 2-wire LED chain. As always, things got out of hand and the project ended up quite sophisticated. See the image on the right for a sneak-peak and click below to find out more.</p>
             </div>
             <ul class="actions">
-                <li><a href="/projects/2WireLEDDriver/" target="_blank" class="button next">More on LED Driver</a></li>
-                <li><a href="/projects/" target="_blank" class="button">See more projects</a></li>
+                <li><a href="/projects/2WireLEDDriver/" class="button">More on LED Driver</a></li>
+                <li><a href="/projects/" class="button">other projects</a></li>
             </ul>
         </div>
         </div>
@@ -200,7 +199,7 @@ permalink: /highlights/
             </header>
             <div>
                 <span class="image left">
-                    <img src="{% link /assets/img/tiles/me.png %}" alt="" data-position="center center" />
+                    <a href="{% link /assets/img/tiles/me.png %}"><img src="{% link /assets/img/tiles/me.png %}" alt="" data-position="center center" /></a>
                     <p class="align-center"></p>
                 </span> 
                 <p>I hope you found my projects interesting and have learned something from them! If you're wondering what kind of person I am, and how I find time for these alongside my studies and life, you'll be glad to hear that I have a healthy work-life balance, with a less healthy interests in specialty coffee and rock climbing (indoors and out), finding time to cook and eat world foods, play board games and video games, socialise with friends, listen to a lot (and I mean a lot) of different music, read books (sci-fi and fantasy novels lately), and go on adventures: hiking in the woods, hiking up mountains, climbing up rock faces and exploring new cities. When not being active, I spend my time watching educational YouTube, often in niche subjects e.g. organic chemistry syntheses, machining and botany, but also in more typical subjects. </p>
@@ -220,7 +219,6 @@ permalink: /highlights/
             </div>
             <ul class="actions">
                 <li><a href="#contact" class="button scrolly">Contact me</a></li>
-                <li><a href="/about/" class="button next">More about me</a></li>
             </ul>
             <ul class="actions">
                 <li><a href="#banner" class="button special scrolly">Back to top</a></li>
