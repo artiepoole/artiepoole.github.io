@@ -5,7 +5,7 @@ title: Maker Projects
 landing-title: 'Maker Projects'
 description: A set of posts demonstrating my practical skills and affinity for designing and making.
 image: /assets/img/tiles/projects2.jpg
-author: Stu Poole
+author: Stuart Poole
 nav-menu: true
 show_tile: true
 ---
