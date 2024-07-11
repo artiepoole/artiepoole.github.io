@@ -52,18 +52,20 @@ permalink: /code/
         </fullwidth>
     {%endif%}
     {% endfor %}
-</fullwidth>
 
-
-<section id="remarks">
+<!-- Closing remarks -->
+<fullwidth id="remarks">
+    <div class="content">
 	<div class="inner">
 		<header class="major">
 			<h2>Thank you for taking an interest.</h2>
 		</header>
-		<p>If you are interested in further information about any of these projects or are interested in offering me a chance to apply to your company, please do not hesitate to contact me using the form below. If you would like to see a summary of my projects and interests, please visit the highlights page using the link below:</p>
+		<p>If you are interested in further information about any of these projects or are interested in offering me a chance to apply to your comapny, please do not hesitate to contact me using the form below. If you would like to see a summary of my projects and interests, please visit the highlights page using the link below:</p>
 		<ul class="actions">
 			<li><a href="/highlights/" class="button next"> View Highlights</a></li>
 			<li><a href="#banner" class="button scrolly"> Back to top</a></li>
 		</ul>
 	</div>
-</section>
+    </div>
+</fullwidth>
+</fullwidth>

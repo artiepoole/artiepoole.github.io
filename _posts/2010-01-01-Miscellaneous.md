@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "miscellaneous"
+title: "Miscellaneous"
 date: 2010-01-01 00:00:00
 category: project
 permalink: "/projects/misc/"

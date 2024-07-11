@@ -32,7 +32,7 @@ permalink: /highlights/
         <div class="content">
         <div class="inner">
             <header class="major">
-                <h3>Research - New Characterisation Techniques for Thin Film Antiferromagnetic Materials </h3>
+                <h2>Research - New Characterisation Techniques for Thin Film Antiferromagnetic Materials </h2>
             </header>
             <div>
                 <span class="image left">
@@ -63,7 +63,7 @@ permalink: /highlights/
         <div class="content" id="programming">
         <div class="inner">
             <header class="major">
-                <h3>Programming</h3>
+                <h2>Instrument Control</h2>
             </header>
             <div>
                 <span class="image right">
@@ -89,15 +89,37 @@ permalink: /highlights/
         </div>
         </div>
     </fullwidth>
+    <!-- ArtOS -->
+    <fullwidth>
+        <div class="content" id="os">
+        <div class="inner">
+            <header class="major">
+                <h2>OS Development</h2>
+            </header>
+            <div>
+                <span class="image left">
+                    <img src="{% link assets/img/projects/ArtOS/keyboard_support.gif%}" alt="" data-position="center center" />
+                    <p class="align-center">ArtOS Test</p>
+                </span>
+                <p></p>
+            </div>
+            <ul class="actions">
+                <li><a href="https://github.com/stupoole/artos" class="button next"> ArtOS</a></li>
+                <li><a href="https://github.com/stupoole/stupoole.github.io" class="button next">This Website</a></li>
+                <li><a href="/code/" class="button">More programming projects</a></li>
+            </ul>
+        </div>
+        </div>
+    </fullwidth>
     <!-- RTS -->
     <fullwidth>
         <div class="content" id="RTS">
         <div class="inner">
             <header class="major">
-                <h3>Equipment Design</h3>
+                <h2>Equipment Design</h2>
             </header>
             <div>
-                <span class="image left"> 
+                <span class="image right"> 
                     <div class="ratio-square"> <iframe class="ratio-inner" title="Peltier Controlled Vacuum System - Exploded View" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/7c1241b2a7914d39afcc135100ca44ca/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #FFFFFF;"></p></div>
                     <p class="align-center">3D model of the room temperature vacuum system</p>
                 </span>
@@ -130,10 +152,10 @@ permalink: /highlights/
         <div class="content">
         <div class="inner">
             <header class="major">
-                <h3>Woodwork and DIY</h3>
+                <h2>Woodwork and DIY</h2>
             </header>
             <div>
-                <span class="image right">
+                <span class="image left">
                     <img src="{% link /assets/img/tiles/crokinole.jpg %}" alt="" data-position="center center" />
                     <p class="align-center">Crokinole Board, Discs and Bowl</p>
                 </span>
@@ -152,10 +174,10 @@ permalink: /highlights/
         <div class="content" id="electronics">
         <div class="inner">
             <header class="major">
-                <h3>Electronics</h3>
+                <h2>Electronics</h2>
             </header>
             <div>
-                <span class="image left">
+                <span class="image right">
                     <img src="{% link /assets/img/projects/2WireLEDDriver/01 - Finished, lid off.jpg %}" alt="" data-position="center center" />
                     <p class="align-center">Assembled dimmable 2-wire LED driver.</p>
                 </span>
@@ -174,10 +196,10 @@ permalink: /highlights/
         <div class="content">
         <div class="inner">
             <header class="major">
-                <h3>What makes me tick</h3>
+                <h2>What makes me tick</h2>
             </header>
             <div>
-                <span class="image right">
+                <span class="image left">
                     <img src="{% link /assets/img/tiles/me.png %}" alt="" data-position="center center" />
                     <p class="align-center"></p>
                 </span> 
@@ -186,24 +208,24 @@ permalink: /highlights/
         </div>
         </div>
     </fullwidth>
-</fullwidth>
-
-<fullwidth class="spotlights" id="five">
-    <div class="content">
-    <div class="inner">
-		<header class="major">
-			<h2>Thank you for taking an interest</h2>
-		</header>
-        <div>
-		<p>If you are wanting further information about any of these projects or are considering offering me a chance to apply to work at your company, please do not hesitate to contact me using the form below.</p>
+    <!-- interest -->
+    <fullwidth background-color="#2e3450">
+        <div class="content">
+        <div class="inner">
+            <header class="major">
+                <h2>Thank you for taking an interest</h2>
+            </header>
+            <div>
+            <p>If you are wanting further information about any of these projects or are considering offering me a chance to apply to work at your company, please do not hesitate to contact me using the form below.</p>
+            </div>
+            <ul class="actions">
+                <li><a href="#contact" class="button scrolly">Contact me</a></li>
+                <li><a href="/about/" class="button next">More about me</a></li>
+            </ul>
+            <ul class="actions">
+                <li><a href="#banner" class="button special scrolly">Back to top</a></li>
+            </ul>
         </div>
-		<ul class="actions">
-		    <li><a href="#contact" class="button scrolly">Contact me</a></li>
-			<li><a href="/about/" class="button next">More about me</a></li>
-		</ul>
-		<ul class="actions">
-            <li><a href="#banner" class="button special scrolly">Back to top</a></li>
-		</ul>
-	</div>
-    </div>
+        </div>
+    </fullwidth>
 </fullwidth>

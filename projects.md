@@ -52,10 +52,11 @@ show_tile: true
         </fullwidth>
     {%endif%}
     {% endfor %}
-</fullwidth>
+
 
 <!-- Closing remarks -->
-<section id="remarks">
+<fullwidth id="remarks">
+    <div class="content">
 	<div class="inner">
 		<header class="major">
 			<h2>Thank you for taking an interest.</h2>
@@ -66,4 +67,6 @@ show_tile: true
 			<li><a href="#banner" class="button scrolly"> Back to top</a></li>
 		</ul>
 	</div>
-</section>
+    </div>
+</fullwidth>
+</fullwidth>
