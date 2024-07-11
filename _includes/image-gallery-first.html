@@ -14,7 +14,7 @@
         float: left;
         display: block;
         position: relative;
-        margin: 0 0 1% 1%;
+        /*margin: 0 0 1% 1%;*/
         text-align: center;
         text-decoration: none !important;
         border-bottom: none;
@@ -23,7 +23,8 @@
 
     .image-gallery.hidden {
         display: none !important;
-        width: 0%;
+        width: 0% !important;
+        padding: 0 !important;
     }
 
     .fill a {
@@ -46,8 +47,7 @@
     }
 </style>
 
-<div class="row 50% uniform">
-    <p class="image-gallery">
+<div class="row 50% uniform image-gallery">
         {% assign extensions = ".jpg|.JPG|.jpeg|.JPEG|.png|.PNG|.gif|.GIF|.tiff|.TIFF" | split: "|" %}
         {% assign sorted = site.static_files | sort: 'date' | reverse %}
         {% assign first = true %}
@@ -72,5 +72,4 @@
         {% endif %}
         {% endif %}
         {% endfor %}
-    </p>
 </div>
