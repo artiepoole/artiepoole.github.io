@@ -27,7 +27,7 @@ permalink: /highlights/
         </div>
         </div>
     </fullwidth>
-    <!-- Research Highlights>
+    <!-- Research Highlights -->
     <fullwidth>
         <div class="content">
         <div class="inner">
