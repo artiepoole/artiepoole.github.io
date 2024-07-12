@@ -79,7 +79,7 @@ permalink: /highlights/
                 <p> Other snippets of research code and other projects have been lost or are not publicly available for various reasons. These include my time evolving 3D magnetic simulation, simple Arduino scripts and Red Pitaya code. </p>
             </div>
             <ul class="actions">
-                <li><a href="https://github.com/stupoole/SpitnronicsMOKE" class="button next" target="_blank"><icon class="fab fa-github"></icon> MOKE GUI </a></li>
+                <li><a href="https://github.com/stupoole/SpintronicsMOKE" class="button next" target="_blank"><icon class="fab fa-github"></icon> MOKE GUI </a></li>
                 <li><a href="https://github.com/stupoole/instruments" class="button next" target="_blank"><icon class="fab fa-github"></icon> Instrument Package </a></li>
                 <li><a href="https://github.com/stupoole/instrumentsexamples" class="button next" target="_blank"><icon class="fab fa-github"></icon> Instruments Examples </a></li>
                 <li><a href="/code/" class="button">More code</a></li>
