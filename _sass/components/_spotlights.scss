@@ -7,6 +7,24 @@
 /* Spotlights */
 
 	.spotlights {
+		body.is-loading & {
+			&:after {
+				//@include vendor('transition-delay', '0.75s');
+				//opacity: 1.0;
+			}
+			@include vendor(
+				'transition',
+				(
+					'opacity 1.5s ease',
+					'transform 0.5s ease-out',
+					'filter 0.5s ease',
+					'-webkit-filter 0.5s ease'
+				)
+			);
+
+			@include vendor('filter', 'blur(0.125em)');
+			opacity:0;
+		}
 		border-top: 0 !important;
 
 		& + * {
