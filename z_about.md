@@ -3,8 +3,8 @@ title: About Me
 layout: landing
 description: WARNING - THIS PAGE IS OUT OF DATE. My name is Stuart/Artie/Stu(deprecated) Poole, and I am a highly practical and well-rounded physicist, having studied antiferromagnetic spintronics and magnetooptics for my PhD at the University of Nottingham.
 image: /assets/img/tiles/MeClimbing.JPG
-show_tile: True
-nav-menu: True
+show_tile: False
+nav-menu: Frue
 permalink: /about/
 ---
 
