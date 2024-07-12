@@ -1,4 +1,9 @@
-Original README from andrewbanchich
+# My website
+This website is intended to act as a portfolio and blog.
+
+
+
+### Original README from andrewbanchich
 ```# Forty - Jekyll Theme
 
 A Jekyll version of the "Forty" theme by [HTML5 UP](https://html5up.net/).  
