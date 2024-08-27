@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "stupoole.github.io"
+title: "artiepoole.github.io"
 date: 2019-10-20 16:00:00
 category: code
 image: null
@@ -17,7 +17,7 @@ permalink: "/projects/website/"
 
 
 <ul class="actions">
-    <li><a class="button" target="_blank" href="https://github.com/stupoole/stupoole.github.io"><span class="fab fa-github"></span> View on GitHub</a></li>
+    <li><a class="button" target="_blank" href="https://github.com/artiepoole/artiepoole.github.io"><span class="fab fa-github"></span> View on GitHub</a></li>
 </ul>
 
 
