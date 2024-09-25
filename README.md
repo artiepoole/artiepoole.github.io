@@ -1,6 +1,9 @@
 # My website
 This website is intended to act as a portfolio and blog.
 
+It is updated infrequently and is mostly used to host maker projects in fields such as woodowork (furniture and delicate), electronics and programming. 
+
+It also includes some research details from a PhD in experimental physics, focussed on characterising antiferromagnetic thin films of CuMnAs using optical and transport measurements.
 
 
 ### Original README from andrewbanchich
